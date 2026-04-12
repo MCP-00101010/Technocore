@@ -1,0 +1,9 @@
+* text=auto
+*.png binary
+*.dds binary
+*.tga binary
+*.yml text eol=lf
+*.txt text eol=lf
+*.mod text eol=lf
+*.gui text eol=lf
+*.gfx text eol=lf

@@ -14,7 +14,6 @@ technocore_start = {
 				set_star_flag = empire_cluster
 			}
 		}
-		generate_home_system_resources = yes
 	}
 
 	class = sc_giga_o_star
@@ -25,7 +24,7 @@ technocore_start = {
 
 	planet = {
 		class = star
-		size = 15
+		size = 10
 		orbit_distance = 0
 		orbit_angle = 0
 
@@ -66,7 +65,7 @@ technocore_start = {
 		class = "pc_ringworld_habitable"
 		name = "Technocore Subsystem 01"
 
-		size = 40
+		size = 75
 		orbit_angle = -90
 		orbit_distance = 0
 
@@ -80,7 +79,7 @@ technocore_start = {
 		class = "pc_ringworld_habitable"
 		name = "Technocore Subsystem 02"
 
-		size = 40
+		size = 75
 		orbit_angle = -90
 		orbit_distance = 0
 
@@ -94,13 +93,499 @@ technocore_start = {
 		class = "pc_ringworld_habitable"
 		name = "Technocore Subsystem 03"
 
-		size = 40
+		size = 75
 		orbit_angle = -90
 		orbit_distance = 0
 
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
+		}
+	}
+	
+	change_orbit = 35
+
+	planet = {
+		class = "pc_machine"
+		name = "Remnant"
+
+		size = 75
+		orbit_angle = -90
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+		}
+	}
+
+	change_orbit = -41
+	
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 01"
+
+		size = 10
+		orbit_angle = 7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 02"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 03"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 04"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 05"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 06"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 07"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 08"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 09"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 10"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 11"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 12"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 13"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 14"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 15"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 16"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 17"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 18"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 19"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 20"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 21"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 22"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 23"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 24"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 25"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 26"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 27"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 28"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 29"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 30"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 31"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 32"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 33"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 34"
+
+		size = 10
+		orbit_angle = -16
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 35"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_molten"
+		name = "Kugelblitz 36"
+
+		size = 10
+		orbit_angle = -7
+		orbit_distance = 0
+
+		init_effect = {
+			prevent_anomaly = yes
 		}
 	}
 }

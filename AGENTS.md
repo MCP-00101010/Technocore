@@ -42,6 +42,9 @@ Whenever support is added, removed, or changed for any mod or megastructure:
 
 - update `README.md`
 - keep the support list accurate
+- keep each supported mod split into `Star megastructures` and `Planet megastructures` sections
+- put structures built on stars into the star section for their owning mod
+- put structures built on planets into the planet section for their owning mod
 - mention whether a structure uses a source mod flag or a Technocore custom trigger flag
 - mention star-class scaling when relevant
 
@@ -49,6 +52,15 @@ Whenever support is added, removed, or changed for any mod or megastructure:
 
 - Vanilla
   - Dyson Sphere
+  - Dyson Swarm
+  - Matter Decompressor
+  - Science Nexus
+  - Sentry Array
+  - Mega Art Installation
+  - Strategic Coordination Center
+  - Interstellar Assembly
+  - Arc Furnace
+  - Grand Archive
 - Gigastructural Engineering
   - Matrioshka Brain
   - Nidavellir Hyperforge
@@ -69,6 +81,7 @@ Whenever support is added, removed, or changed for any mod or megastructure:
 - For new support, inspect the source mod files first and confirm:
   - the source flag
   - the final megastructure id
+  - whether the structure is built on a star or a planet
   - whether star-class scaling applies
   - whether the source mod already provides a persistent flag
 - If a source mod does not provide a clean initializer-friendly flag, use a Technocore custom trigger flag and document it in `README.md`.

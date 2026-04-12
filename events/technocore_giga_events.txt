@@ -18,226 +18,27 @@ country_event = {
             limit = {
                 exists = event_target:technocore_megastructure_body
                 exists = event_target:technocore_megastructure_system
-                event_target:technocore_megastructure_body = { is_star = yes }
             }
 
             if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_matrioshka_brain } }
+                limit = { event_target:technocore_megastructure_body = { is_star = yes } }
 
-                event_target:technocore_megastructure_system = {
-                    if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_o_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_b_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_m_giant_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_a_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_f_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_g_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_g_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_k_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_m_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else = {
-                        spawn_megastructure = {
-                            type = "matrioshka_brain_5_g_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                }
-            }
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_matrioshka_brain } }
 
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_nidavellir } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "nidavellir_forge_4"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_gigaforge } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "neutronium_gigaforge_3"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = asteroid_has_artillery } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "asteroid_artillery_1"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_test_site } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "macro_test_site_3"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_eco_arc } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "orbital_artificial_eco_3"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_crystal_megabore } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "crystal_megabore_1"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_hyperstructural_assembly_yard } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "hyperstructural_ass_4"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_equatorial_shipyard } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "eq_shipyard_2"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_kugelblitz } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "kugelblitz_3"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_orbital_naval_logistics_office } }
-
-                event_target:technocore_megastructure_system = {
-                    spawn_megastructure = {
-                        type = "orbital_naval_logistics_office_1"
-                        owner = root
-                        planet = event_target:technocore_megastructure_body
-                    }
-                }
-            }
-
-            if = {
-                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_star_lifter } }
-
-                event_target:technocore_megastructure_system = {
-                    if = {
-                        limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
-                        spawn_megastructure = {
-                            type = "star_lifter_5_o_star"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-                    else_if = {
-                        limit = { has_global_flag = giga_lifter_scaling }
-
+                    event_target:technocore_megastructure_system = {
                         if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "matrioshka_brain_5_o_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
                             limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
                             spawn_megastructure = {
-                                type = "star_lifter_5_b_star"
+                                type = "matrioshka_brain_5_b_star"
                                 owner = root
                                 planet = event_target:technocore_megastructure_body
                             }
@@ -245,7 +46,7 @@ country_event = {
                         else_if = {
                             limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
                             spawn_megastructure = {
-                                type = "star_lifter_5_m_giant_star"
+                                type = "matrioshka_brain_5_m_giant_star"
                                 owner = root
                                 planet = event_target:technocore_megastructure_body
                             }
@@ -253,7 +54,7 @@ country_event = {
                         else_if = {
                             limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
                             spawn_megastructure = {
-                                type = "star_lifter_5_a_star"
+                                type = "matrioshka_brain_5_a_star"
                                 owner = root
                                 planet = event_target:technocore_megastructure_body
                             }
@@ -261,7 +62,7 @@ country_event = {
                         else_if = {
                             limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
                             spawn_megastructure = {
-                                type = "star_lifter_5_f_star"
+                                type = "matrioshka_brain_5_f_star"
                                 owner = root
                                 planet = event_target:technocore_megastructure_body
                             }
@@ -269,7 +70,7 @@ country_event = {
                         else_if = {
                             limit = { event_target:technocore_megastructure_body = { giga_is_g_star_for_megas = yes } }
                             spawn_megastructure = {
-                                type = "star_lifter_5_g_star"
+                                type = "matrioshka_brain_5_g_star"
                                 owner = root
                                 planet = event_target:technocore_megastructure_body
                             }
@@ -277,7 +78,7 @@ country_event = {
                         else_if = {
                             limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
                             spawn_megastructure = {
-                                type = "star_lifter_5_k_star"
+                                type = "matrioshka_brain_5_k_star"
                                 owner = root
                                 planet = event_target:technocore_megastructure_body
                             }
@@ -285,9 +86,134 @@ country_event = {
                         else_if = {
                             limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
                             spawn_megastructure = {
-                                type = "star_lifter_5_m_star"
+                                type = "matrioshka_brain_5_m_star"
                                 owner = root
                                 planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else = {
+                            spawn_megastructure = {
+                                type = "matrioshka_brain_5_g_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_nidavellir } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "nidavellir_forge_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_gigaforge } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "neutronium_gigaforge_3"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_hyperstructural_assembly_yard } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "hyperstructural_ass_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_star_lifter } }
+
+                    event_target:technocore_megastructure_system = {
+                        if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_o_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { has_global_flag = giga_lifter_scaling }
+
+                            if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "star_lifter_5_b_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "star_lifter_5_m_giant_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "star_lifter_5_a_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "star_lifter_5_f_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_g_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "star_lifter_5_g_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "star_lifter_5_k_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "star_lifter_5_m_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else = {
+                                spawn_megastructure = {
+                                    type = "star_lifter_5"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
                             }
                         }
                         else = {
@@ -298,9 +224,87 @@ country_event = {
                             }
                         }
                     }
-                    else = {
+                }
+            }
+            else = {
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = asteroid_has_artillery } }
+
+                    event_target:technocore_megastructure_system = {
                         spawn_megastructure = {
-                            type = "star_lifter_5"
+                            type = "asteroid_artillery_1"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_test_site } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "macro_test_site_3"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_eco_arc } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "orbital_artificial_eco_3"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_crystal_megabore } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "crystal_megabore_1"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_equatorial_shipyard } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "eq_shipyard_2"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_kugelblitz } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "kugelblitz_3"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_orbital_naval_logistics_office } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "orbital_naval_logistics_office_1"
                             owner = root
                             planet = event_target:technocore_megastructure_body
                         }
@@ -309,6 +313,8 @@ country_event = {
             }
 
             # Add more Gigastructures mappings here.
+            # The dispatcher scans every system body.
+            # Keep star and planet megas in separate branches so the file stays easy to read.
             # Star-targeted megas should usually spawn from event_target:technocore_megastructure_system.
             # Planet-targeted megas can usually spawn from event_target:technocore_megastructure_body.
             #

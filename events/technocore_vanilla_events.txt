@@ -109,34 +109,133 @@ country_event = {
                     }
                 }
 
-                # Add other vanilla star megastructure mappings here.
-                # Example:
-                # if = {
-                #     limit = { event_target:technocore_megastructure_body = { has_planet_flag = my_star_megastructure_flag } }
-                #     event_target:technocore_megastructure_system = {
-                #         spawn_megastructure = {
-                #             type = "my_star_megastructure_type"
-                #             owner = root
-                #             planet = event_target:technocore_megastructure_body
-                #         }
-                #     }
-                # }
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_dyson_swarm } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "dyson_swarm_3"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_matter_decompressor } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "matter_decompressor_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                # Vanilla notes:
+                # - Dyson Sphere uses vanilla's own has_dyson_sphere flag and can scale by
+                #   star class when Gigastructural Engineering is present.
+                # - Dyson Swarm uses the custom Technocore flag has_dyson_swarm.
+                #   Vanilla does not define star-class Dyson Swarm variants.
+                # - Matter Decompressor uses the custom Technocore flag has_matter_decompressor.
             }
 
             if = {
                 limit = { event_target:technocore_megastructure_body = { NOT = { is_star = yes } } }
-                # Add vanilla planet megastructure mappings here.
-                # Example:
-                # if = {
-                #     limit = { event_target:technocore_megastructure_body = { has_planet_flag = my_planet_megastructure_flag } }
-                #     event_target:technocore_megastructure_body = {
-                #         spawn_megastructure = {
-                #             type = "my_planet_megastructure_type"
-                #             owner = root
-                #             planet = this
-                #         }
-                #     }
-                # }
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_science_nexus } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "think_tank_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_sentry_array } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "spy_orb_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_mega_art_installation } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "mega_art_installation_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_strategic_coordination_center } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "strategic_coordination_center_3"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_interstellar_assembly } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "interstellar_assembly_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_arc_furnace } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "orbital_arc_furnace_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_grand_archive } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "grand_archive_0"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                # Vanilla notes:
+                # - Science Nexus uses the custom Technocore flag has_science_nexus.
+                # - Sentry Array uses the custom Technocore flag has_sentry_array.
+                # - Mega Art Installation uses the custom Technocore flag has_mega_art_installation.
+                # - Strategic Coordination Center uses the custom Technocore flag
+                #   has_strategic_coordination_center.
+                # - Interstellar Assembly uses the custom Technocore flag has_interstellar_assembly.
+                # - Arc Furnace uses vanilla's own has_arc_furnace flag.
+                # - Grand Archive uses the custom Technocore flag has_grand_archive.
             }
         }
     }

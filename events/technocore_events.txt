@@ -6,42 +6,99 @@ country_event = {
     is_triggered_only = yes
     
     immediate = {
-        log = "TECHNOCORE DEBUG: technocore.1 fired for country scope"
-
         if = {
             limit = { has_origin = origin_technocore }
-            log = "TECHNOCORE DEBUG: country has origin_technocore"
 
             capital_scope = {
-                log = "TECHNOCORE DEBUG: entered capital_scope"
-
                 solar_system = {
-                    log = "TECHNOCORE DEBUG: entered capital solar_system"
-
                     every_system_planet = {
                         limit = { NOT = { has_planet_flag = technocore_megastructure_initialized } }
 
                         if = {
                             limit = { is_star = yes }
-                            log = "TECHNOCORE DEBUG: iterating star for megastructure checks"
 
                             if = {
                                 limit = { has_planet_flag = has_dyson_sphere }
-                                log = "TECHNOCORE DEBUG: star has has_dyson_sphere flag"
-
                                 save_event_target_as = technocore_megastructure_body
 
                                 prev = {
-                                    log = "TECHNOCORE DEBUG: spawning dyson sphere from system scope for saved star target"
-
                                     spawn_megastructure = {
                                         type = "dyson_sphere_5"
                                         owner = root
                                         planet = event_target:technocore_megastructure_body
                                     }
                                 }
+                            }
 
-                                log = "TECHNOCORE DEBUG: spawn_megastructure called for star-flag dyson sphere"
+                            if = {
+                                limit = { has_planet_flag = has_matrioshka_brain }
+                                save_event_target_as = technocore_megastructure_body
+
+                                prev = {
+                                    if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_o_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else_if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_b_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else_if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_m_giant_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else_if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_a_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else_if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_f_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else_if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_k_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else_if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_m_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else = {
+                                        spawn_megastructure = {
+                                            type = "matrioshka_brain_5_g_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                }
                             }
 
                             # Add more star-targeted megastructure mappings here.
@@ -68,21 +125,16 @@ country_event = {
 
                         if = {
                             limit = { NOT = { is_star = yes } }
-                            log = "TECHNOCORE DEBUG: iterating non-star system planet for megastructure checks"
-
                             # Add planet-targeted megastructure mappings here.
                             # Example pattern:
                             # if = {
                             #     limit = { has_planet_flag = my_planet_megastructure_flag }
-                            #     log = "TECHNOCORE DEBUG: planet has my_planet_megastructure_flag"
                             #
                             #     spawn_megastructure = {
                             #         type = "my_planet_megastructure_type"
                             #         owner = root
                             #         planet = this
                             #     }
-                            #
-                            #     log = "TECHNOCORE DEBUG: spawn_megastructure called for my_planet_megastructure_type"
                             # }
                         }
 

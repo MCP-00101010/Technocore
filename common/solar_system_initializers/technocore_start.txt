@@ -72,11 +72,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
-			create_colony = {
-				owner = root
-				species = owner_main_species
-				ethos = owner
-			}
+			set_planet_flag = technocore_starting_colony
 		}
 	}
 
@@ -90,11 +86,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
-			create_colony = {
-				owner = root
-				species = owner_main_species
-				ethos = owner
-			}
+			set_planet_flag = technocore_starting_colony
 		}
 	}
 
@@ -108,11 +100,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
-			create_colony = {
-				owner = root
-				species = owner_main_species
-				ethos = owner
-			}
+			set_planet_flag = technocore_starting_colony
 		}
 	}
 }

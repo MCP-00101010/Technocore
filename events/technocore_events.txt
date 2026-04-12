@@ -14,6 +14,22 @@ country_event = {
             capital_scope = {
                 solar_system = {
                     every_system_planet = {
+                        limit = {
+                            has_planet_flag = technocore_starting_colony
+                            NOT = { is_colony = yes }
+                        }
+
+                        create_colony = {
+                            owner = event_target:technocore_dispatch_owner
+                            species = owner_main_species
+                            ethos = owner
+                        }
+                        clear_blockers = yes
+                        generate_start_buildings_and_districts = yes
+                        generate_start_pops = yes
+                    }
+
+                    every_system_planet = {
                         limit = { NOT = { has_planet_flag = technocore_megastructure_initialized } }
 
                         save_event_target_as = technocore_megastructure_body

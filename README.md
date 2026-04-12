@@ -27,15 +27,39 @@ The megastructure logic is split by mod so compatibility support is easier to ma
 - Matrioshka Brain
   - `has_matrioshka_brain`
   - Supports Giga star-class variants
+- Asteroid Artillery
+  - `asteroid_has_artillery`
+  - Spawns `asteroid_artillery_1`
 - Nidavellir Hyperforge
   - `has_nidavellir`
   - Spawns `nidavellir_forge_4`
 - Neutronium Gigaforge
   - `has_gigaforge`
   - Spawns `neutronium_gigaforge_3`
+- Macroengineering Testing Station
+  - `has_test_site`
+  - Spawns `macro_test_site_3`
+- Orbital Artificial Ecosystem
+  - `has_eco_arc`
+  - Spawns `orbital_artificial_eco_3`
+- Crystal Megabore
+  - `has_crystal_megabore`
+  - Spawns `crystal_megabore_1`
 - Hyperstructural Assembly Yard
   - `has_hyperstructural_assembly_yard`
   - Spawns `hyperstructural_ass_4`
+  - Uses a Technocore custom trigger flag for initializer-driven placement
+- Equatorial Shipyard
+  - `has_equatorial_shipyard`
+  - Spawns `eq_shipyard_2`
+  - Uses a Technocore custom trigger flag for initializer-driven placement
+- Kugelblitz
+  - `has_kugelblitz`
+  - Spawns `kugelblitz_3`
+  - Uses a Technocore custom trigger flag for initializer-driven placement
+- Orbital Naval Logistics Office
+  - `has_orbital_naval_logistics_office`
+  - Spawns `orbital_naval_logistics_office_1`
   - Uses a Technocore custom trigger flag for initializer-driven placement
 - Star Lifter
   - `has_star_lifter`

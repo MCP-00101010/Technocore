@@ -124,11 +124,95 @@ country_event = {
             }
 
             if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = asteroid_has_artillery } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "asteroid_artillery_1"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_test_site } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "macro_test_site_3"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_eco_arc } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "orbital_artificial_eco_3"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_crystal_megabore } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "crystal_megabore_1"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
                 limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_hyperstructural_assembly_yard } }
 
                 event_target:technocore_megastructure_system = {
                     spawn_megastructure = {
                         type = "hyperstructural_ass_4"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_equatorial_shipyard } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "eq_shipyard_2"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_kugelblitz } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "kugelblitz_3"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_orbital_naval_logistics_office } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "orbital_naval_logistics_office_1"
                         owner = root
                         planet = event_target:technocore_megastructure_body
                     }
@@ -232,8 +316,18 @@ country_event = {
             # - Hyperquasaric Megaconstruction adds matrioshka_brain_*_core megastructures.
             #   Those should be handled here, not in the Hyperquasaric file, because the
             #   underlying source flag is still has_matrioshka_brain.
+            # - Asteroid Artillery uses Giga's own asteroid_has_artillery source flag.
+            # - Macroengineering Testing Station uses Giga's own has_test_site source flag.
+            # - Orbital Artificial Ecosystem uses Giga's own has_eco_arc source flag.
+            # - Crystal Megabore uses Giga's own has_crystal_megabore source flag.
             # - Hyperstructural Assembly Yard uses the custom Technocore flag
             #   has_hyperstructural_assembly_yard for initializer-driven spawning.
+            # - Equatorial Shipyard uses the custom Technocore flag
+            #   has_equatorial_shipyard for initializer-driven spawning.
+            # - Kugelblitz uses the custom Technocore flag has_kugelblitz for
+            #   initializer-driven spawning.
+            # - Orbital Naval Logistics Office uses the custom Technocore flag
+            #   has_orbital_naval_logistics_office for initializer-driven spawning.
             # - Star Lifter uses the custom Technocore flag has_star_lifter and preserves
             #   Giga's star-class scaling rules when giga_lifter_scaling is active.
             # - Sparble's Hyperconstructs Patch: Gigastructural Engineering & More contains

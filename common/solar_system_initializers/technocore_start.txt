@@ -131,6 +131,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -144,6 +145,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -157,6 +160,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -170,6 +174,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -183,6 +188,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -196,6 +203,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -209,6 +217,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -222,6 +231,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -235,6 +246,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -248,6 +260,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -261,6 +274,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -274,6 +289,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -287,6 +303,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -300,6 +317,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -313,6 +332,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -326,6 +346,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -339,6 +360,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -352,6 +375,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -365,6 +389,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -378,6 +403,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -391,6 +418,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -404,6 +432,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -417,6 +446,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -430,6 +461,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -443,6 +475,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -456,6 +489,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -469,6 +504,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -482,6 +518,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -495,6 +532,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -508,6 +547,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -521,6 +561,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -534,6 +575,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -547,6 +590,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -560,6 +604,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 
@@ -573,6 +618,8 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
+			set_planet_flag = has_kugelblitz
 		}
 	}
 
@@ -586,6 +633,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_molten_planet
 		}
 	}
 }

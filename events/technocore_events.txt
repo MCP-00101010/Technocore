@@ -45,6 +45,13 @@ country_event = {
 
                         set_planet_flag = technocore_megastructure_initialized
                     }
+
+                    every_system_planet = {
+                        limit = { has_planet_flag = technocore_molten_planet }
+
+                        clear_deposits = yes
+                        change_pc = pc_molten
+                    }
                 }
             }
         }

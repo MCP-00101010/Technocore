@@ -1,0 +1,8 @@
+﻿l_english:
+ origin_technocore:0 "Technocore"
+ origin_technocore_desc:0 "This civilization lives upon a §HRing World§! built by unknown precursors. Once understood and repaired, it will grant them immense power."
+ origin_tooltip_technocore_effects:0 "- $HOMEWORLD$ §HRing World§!$NEW_LINE$- $SPECIES_TRAITS$ Ring World Preference"
+ technocore_start_NAME: ""
+ technocore_start_DESC: "A starting system with a Ring World."
+ START_SCREEN_techno_start: "For as long as our history records, we have forgotten how our people first came to [GetHomeWorldName]. We only know that some two millennia ago, an impossibly vast cataclysm claimed the lives of countless souls and destroyed the outer Ring, but from those ruins we rose.\n\nOur civilization has flourished and is now ready to take to the stars - whether for the first time, or once again. Though we have come far, much remains to be done before we can understand and repair our Ring World home."
+ START_SCREEN_technocore_start: "For as long as our history records, we have forgotten how our people first came to [GetHomeWorldName]. We only know that some two millennia ago, an impossibly vast cataclysm claimed the lives of countless souls and destroyed the outer Ring, but from those ruins we rose.\n\nOur civilization has flourished and is now ready to take to the stars - whether for the first time, or once again. Though we have come far, much remains to be done before we can understand and repair our Ring World home."

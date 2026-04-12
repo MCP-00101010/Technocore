@@ -1,0 +1,95 @@
+namespace = technocore
+
+country_event = {
+    id = technocore.1
+    hide_window = yes
+    is_triggered_only = yes
+    
+    immediate = {
+        log = "TECHNOCORE DEBUG: technocore.1 fired for country scope"
+
+        if = {
+            limit = { has_origin = origin_technocore }
+            log = "TECHNOCORE DEBUG: country has origin_technocore"
+
+            capital_scope = {
+                log = "TECHNOCORE DEBUG: entered capital_scope"
+
+                solar_system = {
+                    log = "TECHNOCORE DEBUG: entered capital solar_system"
+
+                    every_system_planet = {
+                        limit = { NOT = { has_planet_flag = technocore_megastructure_initialized } }
+
+                        if = {
+                            limit = { is_star = yes }
+                            log = "TECHNOCORE DEBUG: iterating star for megastructure checks"
+
+                            if = {
+                                limit = { has_planet_flag = has_dyson_sphere }
+                                log = "TECHNOCORE DEBUG: star has has_dyson_sphere flag"
+
+                                save_event_target_as = technocore_megastructure_body
+
+                                prev = {
+                                    log = "TECHNOCORE DEBUG: spawning dyson sphere from system scope for saved star target"
+
+                                    spawn_megastructure = {
+                                        type = "dyson_sphere_5"
+                                        owner = root
+                                        planet = event_target:technocore_megastructure_body
+                                    }
+                                }
+
+                                log = "TECHNOCORE DEBUG: spawn_megastructure called for star-flag dyson sphere"
+                            }
+
+                            # Add more star-targeted megastructure mappings here.
+                            # Example pattern:
+                            # if = {
+                            #     limit = { has_planet_flag = my_star_megastructure_flag }
+                            #     log = "TECHNOCORE DEBUG: star has my_star_megastructure_flag"
+                            #
+                            #     save_event_target_as = technocore_megastructure_body
+                            #
+                            #     prev = {
+                            #         log = "TECHNOCORE DEBUG: spawning my_star_megastructure from system scope"
+                            #
+                            #         spawn_megastructure = {
+                            #             type = "my_star_megastructure_type"
+                            #             owner = root
+                            #             planet = event_target:technocore_megastructure_body
+                            #         }
+                            #     }
+                            #
+                            #     log = "TECHNOCORE DEBUG: spawn_megastructure called for my_star_megastructure_type"
+                            # }
+                        }
+
+                        if = {
+                            limit = { NOT = { is_star = yes } }
+                            log = "TECHNOCORE DEBUG: iterating non-star system planet for megastructure checks"
+
+                            # Add planet-targeted megastructure mappings here.
+                            # Example pattern:
+                            # if = {
+                            #     limit = { has_planet_flag = my_planet_megastructure_flag }
+                            #     log = "TECHNOCORE DEBUG: planet has my_planet_megastructure_flag"
+                            #
+                            #     spawn_megastructure = {
+                            #         type = "my_planet_megastructure_type"
+                            #         owner = root
+                            #         planet = this
+                            #     }
+                            #
+                            #     log = "TECHNOCORE DEBUG: spawn_megastructure called for my_planet_megastructure_type"
+                            # }
+                        }
+
+                        set_planet_flag = technocore_megastructure_initialized
+                    }
+                }
+            }
+        }
+    }
+}

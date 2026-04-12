@@ -1,0 +1,173 @@
+technocore_start = {
+	usage = origin
+
+	init_effect = {
+
+        if = {
+            limit = { is_inside_nebula = no }
+            create_nebula = { radius = 25 }
+        }
+
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+
+	class = sc_a
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 120
+	}
+
+	planet = {
+		class = star
+		size = 35
+		orbit_distance = 0
+		orbit_angle = 0
+
+		flags = { pd_ignore }
+
+		init_effect = {
+			set_planet_flag = has_dyson_sphere
+		}
+	}
+
+	change_orbit = 45
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		size = 40
+		name = "Technocore Mainframe"
+		
+		starting_planet = yes
+
+		orbit_angle = 30
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		flags = { ignore_startup_effect megastructure  }
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 01"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 02"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 03"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 04"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 05"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+		
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 06"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 07"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 08"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 09"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+
+		
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 10"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Subsystem 11"
+
+		size = 40
+		orbit_angle = 30
+		orbit_distance = 0
+
+	}
+
+}

@@ -22,10 +22,87 @@ country_event = {
                                 save_event_target_as = technocore_megastructure_body
 
                                 prev = {
-                                    spawn_megastructure = {
-                                        type = "dyson_sphere_5"
-                                        owner = root
-                                        planet = event_target:technocore_megastructure_body
+                                    if = {
+                                        limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
+                                        spawn_megastructure = {
+                                            type = "dyson_sphere_5_o_star"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
+                                    }
+                                    else_if = {
+                                        limit = { has_global_flag = giga_dyson_scaling }
+
+                                        if = {
+                                            limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5_b_star"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                        else_if = {
+                                            limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5_m_giant_star"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                        else_if = {
+                                            limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5_a_star"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                        else_if = {
+                                            limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5_f_star"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                        else_if = {
+                                            limit = { event_target:technocore_megastructure_body = { giga_is_g_star_for_megas = yes } }
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5_g_star"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                        else_if = {
+                                            limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5_k_star"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                        else_if = {
+                                            limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5_m_star"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                        else = {
+                                            spawn_megastructure = {
+                                                type = "dyson_sphere_5"
+                                                owner = root
+                                                planet = event_target:technocore_megastructure_body
+                                            }
+                                        }
+                                    }
+                                    else = {
+                                        spawn_megastructure = {
+                                            type = "dyson_sphere_5"
+                                            owner = root
+                                            planet = event_target:technocore_megastructure_body
+                                        }
                                     }
                                 }
                             }

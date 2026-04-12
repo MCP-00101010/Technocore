@@ -1,0 +1,38 @@
+namespace = technocore_stellar_manipulation
+
+# Ownership rule:
+# This file is for flags that originate in Stellar Manipulation Rewrite/Revival itself.
+# If Stellar Manipulation only replaces the result of some other mod's flag, the compat
+# logic belongs with the owning mod instead.
+# Examples discovered locally:
+# - stellar_manipulator_* and stellar_assembly_plant_* are Stellar Manipulation-owned.
+# - Hyperquasaric's smbh_manipulator_* appears to build on Stellar Manipulation concepts;
+#   if we detect a Stellar-owned source flag for it, the compat branch should stay here.
+
+country_event = {
+    id = technocore_stellar_manipulation.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                exists = event_target:technocore_megastructure_body
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { is_star = yes } }
+                # Add Stellar Manipulation-owned star megastructure mappings here.
+                # Standalone examples from the installed mod:
+                # - stellar_manipulator_*
+                # - stellar_assembly_plant_*
+                # - war_system_o_*
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { NOT = { is_star = yes } } }
+                # Add Stellar Manipulation-owned planet megastructure mappings here.
+            }
+        }
+    }
+}

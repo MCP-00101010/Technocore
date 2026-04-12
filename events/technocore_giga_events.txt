@@ -1,0 +1,243 @@
+namespace = technocore_giga
+
+# Ownership rule:
+# This file owns flags that originate in Gigastructural Engineering.
+# Compatibility overrides from other mods that replace a Giga-owned megastructure
+# also belong here, because the source flag is still Giga-owned.
+# Examples discovered locally:
+# - has_matrioshka_brain can stay here even if Hyperquasaric swaps in *_core variants.
+# - Sparble's Giga patch content belongs here when it overrides Giga-owned structures.
+
+country_event = {
+    id = technocore_giga.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                exists = event_target:technocore_megastructure_body
+                exists = event_target:technocore_megastructure_system
+                event_target:technocore_megastructure_body = { is_star = yes }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_matrioshka_brain } }
+
+                event_target:technocore_megastructure_system = {
+                    if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_o_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_b_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_m_giant_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_a_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_f_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_g_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_g_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_k_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_m_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else = {
+                        spawn_megastructure = {
+                            type = "matrioshka_brain_5_g_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_nidavellir } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "nidavellir_forge_4"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_gigaforge } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "neutronium_gigaforge_3"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_hyperstructural_assembly_yard } }
+
+                event_target:technocore_megastructure_system = {
+                    spawn_megastructure = {
+                        type = "hyperstructural_ass_4"
+                        owner = root
+                        planet = event_target:technocore_megastructure_body
+                    }
+                }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_star_lifter } }
+
+                event_target:technocore_megastructure_system = {
+                    if = {
+                        limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
+                        spawn_megastructure = {
+                            type = "star_lifter_5_o_star"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                    else_if = {
+                        limit = { has_global_flag = giga_lifter_scaling }
+
+                        if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_b_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_m_giant_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_a_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_f_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_g_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_g_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_k_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "star_lifter_5_m_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else = {
+                            spawn_megastructure = {
+                                type = "star_lifter_5"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                    }
+                    else = {
+                        spawn_megastructure = {
+                            type = "star_lifter_5"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+            }
+
+            # Add more Gigastructures mappings here.
+            # Star-targeted megas should usually spawn from event_target:technocore_megastructure_system.
+            # Planet-targeted megas can usually spawn from event_target:technocore_megastructure_body.
+            #
+            # Compatibility notes from installed mods:
+            # - Hyperquasaric Megaconstruction adds matrioshka_brain_*_core megastructures.
+            #   Those should be handled here, not in the Hyperquasaric file, because the
+            #   underlying source flag is still has_matrioshka_brain.
+            # - Hyperstructural Assembly Yard uses the custom Technocore flag
+            #   has_hyperstructural_assembly_yard for initializer-driven spawning.
+            # - Star Lifter uses the custom Technocore flag has_star_lifter and preserves
+            #   Giga's star-class scaling rules when giga_lifter_scaling is active.
+            # - Sparble's Hyperconstructs Patch: Gigastructural Engineering & More contains
+            #   Giga overwrite files; those mappings should also be handled here when added.
+        }
+    }
+}

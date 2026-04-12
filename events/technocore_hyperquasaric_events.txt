@@ -1,0 +1,62 @@
+namespace = technocore_hyperquasaric
+
+# Ownership rule:
+# This file is for flags that originate in Hyperquasaric Megaconstruction itself.
+# If Hyperquasaric merely overrides a vanilla or Giga structure, that compat logic
+# should live in the vanilla or Giga handler instead.
+# Examples discovered locally:
+# - hyperquasaric_teraforge_* and hyperquasaric_megashipyard_* are Hyperquasaric-owned.
+# - matrioshka_brain_*_core is a Giga compat override and should be handled in technocore_giga.
+# - smbh_manipulator_* appears to extend Stellar Manipulation and should be handled in the
+#   Stellar Manipulation handler if we key off a Stellar-owned source flag.
+
+country_event = {
+    id = technocore_hyperquasaric.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                exists = event_target:technocore_megastructure_body
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { is_star = yes } }
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_hyperquasaric_teraforge } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "hyperquasaric_teraforge_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_hyperquasaric_megashipyard } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "hyperquasaric_megashipyard_4"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                # Add Hyperquasaric-owned star megastructure mappings here.
+                # Standalone examples from the installed mod:
+                # - hyperquasaric_teraforge_* via has_hyperquasaric_teraforge
+                # - hyperquasaric_megashipyard_* via has_hyperquasaric_megashipyard
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { NOT = { is_star = yes } } }
+                # Add Hyperquasaric-owned planet megastructure mappings here.
+            }
+        }
+    }
+}

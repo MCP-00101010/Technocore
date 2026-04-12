@@ -1,0 +1,143 @@
+namespace = technocore_vanilla
+
+# Ownership rule:
+# This file owns flags that originate in vanilla Stellaris.
+# If another mod changes what a vanilla-owned flag should spawn, the compat branch
+# still lives here because the flag itself is vanilla-owned.
+# Example: has_dyson_sphere -> vanilla dyson sphere by default, Gigas variants when present.
+
+country_event = {
+    id = technocore_vanilla.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                exists = event_target:technocore_megastructure_body
+                exists = event_target:technocore_megastructure_system
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { is_star = yes } }
+                if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_dyson_sphere } }
+
+                    event_target:technocore_megastructure_system = {
+                        if = {
+                            limit = { event_target:technocore_megastructure_body = { giga_is_o_star_for_megas = yes } }
+                            spawn_megastructure = {
+                                type = "dyson_sphere_5_o_star"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                        else_if = {
+                            limit = { has_global_flag = giga_dyson_scaling }
+
+                            if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_b_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5_b_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_m_giant_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5_m_giant_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_a_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5_a_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_f_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5_f_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_g_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5_g_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_k_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5_k_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else_if = {
+                                limit = { event_target:technocore_megastructure_body = { giga_is_m_star_for_megas = yes } }
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5_m_star"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                            else = {
+                                spawn_megastructure = {
+                                    type = "dyson_sphere_5"
+                                    owner = root
+                                    planet = event_target:technocore_megastructure_body
+                                }
+                            }
+                        }
+                        else = {
+                            spawn_megastructure = {
+                                type = "dyson_sphere_5"
+                                owner = root
+                                planet = event_target:technocore_megastructure_body
+                            }
+                        }
+                    }
+                }
+
+                # Add other vanilla star megastructure mappings here.
+                # Example:
+                # if = {
+                #     limit = { event_target:technocore_megastructure_body = { has_planet_flag = my_star_megastructure_flag } }
+                #     event_target:technocore_megastructure_system = {
+                #         spawn_megastructure = {
+                #             type = "my_star_megastructure_type"
+                #             owner = root
+                #             planet = event_target:technocore_megastructure_body
+                #         }
+                #     }
+                # }
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { NOT = { is_star = yes } } }
+                # Add vanilla planet megastructure mappings here.
+                # Example:
+                # if = {
+                #     limit = { event_target:technocore_megastructure_body = { has_planet_flag = my_planet_megastructure_flag } }
+                #     event_target:technocore_megastructure_body = {
+                #         spawn_megastructure = {
+                #             type = "my_planet_megastructure_type"
+                #             owner = root
+                #             planet = this
+                #         }
+                #     }
+                # }
+            }
+        }
+    }
+}

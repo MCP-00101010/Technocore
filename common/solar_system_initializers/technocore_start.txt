@@ -33,7 +33,9 @@ technocore_start = {
 
 		init_effect = {
 			set_planet_flag = has_dyson_sphere
-			set_planet_flag = has_matrioshka_brain
+			set_planet_flag = has_nidavellir
+			set_planet_flag = has_gigaforge
+			set_planet_flag = has_hyperstructural_assembly_yard
 		}
 	}
 

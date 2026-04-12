@@ -1,0 +1,47 @@
+namespace = technocore_sparble
+
+# Ownership rule:
+# This file is for flags that originate in Sparble's Stellar Hyperconstructs itself.
+# Sparble fix mods and the Giga compatibility patch should only be handled here when
+# they are spawning structures from Sparble-owned flags. If they override Giga-owned
+# content, those branches belong in technocore_giga instead.
+# Examples discovered locally:
+# - shellworld / double_shellworld / triple_shellworld are Sparble-owned.
+# - black_hole_shellworld, gas_giant_shellworld, hoopworld, freesphere and similar
+#   Hyperconstructs flags belong here.
+# - The separate "Hyperconstructs Patch: Gigastructural Engineering & More" mod should
+#   feed Giga-owned overrides back into technocore_giga, not this file.
+
+country_event = {
+    id = technocore_sparble.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = {
+                exists = event_target:technocore_megastructure_body
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { is_star = yes } }
+                # Add Sparble-owned star megastructure mappings here.
+                # Standalone examples from the installed mod:
+                # - black_hole_shellworld
+                # - ssh_artificial_star
+                # - active_neutron_compressor_planet / captive_star_planet families when keyed by their own flags
+            }
+
+            if = {
+                limit = { event_target:technocore_megastructure_body = { NOT = { is_star = yes } } }
+                # Add Sparble-owned planet megastructure mappings here.
+                # Standalone examples from the installed mod:
+                # - shellworld
+                # - double_shellworld
+                # - triple_shellworld
+                # - gas_giant_shellworld
+                # - habitable_dyson_planet
+            }
+        }
+    }
+}

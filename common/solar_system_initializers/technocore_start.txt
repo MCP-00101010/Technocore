@@ -19,7 +19,7 @@ technocore_start = {
 	class = sc_giga_o_star
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 162
+		radius = 172
 	}
 
 	planet = {
@@ -42,7 +42,7 @@ technocore_start = {
 	planet = {
 		class = pc_asteroid
 		size = 5
-		orbit_distance = 162
+		orbit_distance = 172
 		orbit_angle = 0
 
 		init_effect = {
@@ -534,9 +534,83 @@ technocore_start = {
 		}
 	}
 
-	change_orbit = -90
+	change_orbit = -100
 
-	change_orbit = 58
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Administrative Segment"
+
+		size = 75
+		orbit_angle = 45
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		flags = { ignore_startup_effect megastructure }
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_admin_segment
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Research Segment 01"
+
+		size = 75
+		orbit_angle = -90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_research_segment_1
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Trade Segment 02"
+
+		size = 75
+		orbit_angle = -90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_trade_segment
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Technocore Research Segment 02"
+
+		size = 75
+		orbit_angle = -90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_research_segment_2
+		}
+	}
+
+	change_orbit = 68
 
 	planet = {
 		class = "pc_machine"
@@ -544,55 +618,6 @@ technocore_start = {
 
 		size = 50
 		starting_planet = yes
-		orbit_angle = -90
-		orbit_distance = 0
-
-		deposit_blockers = none
-		modifiers = none
-
-		init_effect = {
-			prevent_anomaly = yes
-		}
-	}
-
-	planet = {
-		class = "pc_nuked"
-		name = "Ashen Protocol"
-
-		size = 50
-		starting_planet = yes
-		orbit_angle = -90
-		orbit_distance = 0
-
-		deposit_blockers = none
-		modifiers = none
-
-		init_effect = {
-			prevent_anomaly = yes
-		}
-	}
-
-	planet = {
-		class = "pc_relic"
-		name = "Cortex Memory"
-
-		size = 50
-		orbit_angle = -90
-		orbit_distance = 0
-
-		deposit_blockers = none
-		modifiers = none
-
-		init_effect = {
-			prevent_anomaly = yes
-		}
-	}
-
-		planet = {
-		class = "pc_nanotech"
-		name = "Nanite Convergence"
-
-		size = 50
 		orbit_angle = -90
 		orbit_distance = 0
 

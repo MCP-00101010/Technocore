@@ -28,26 +28,55 @@ country_event = {
                         }
 
                         if = {
-                            limit = { has_planet_flag = technocore_admin_segment }
-                            set_name = "Technocore Administrative Segment"
+                            limit = { has_planet_flag = technocore_admin_segment_1 }
+                            set_name = "Administrative Segment 01"
                             add_deposit = d_technocore_admin_subprocessor
                         }
                         if = {
+                            limit = { has_planet_flag = technocore_admin_segment_2 }
+                            set_name = "Administrative Segment 02"
+                            add_deposit = d_technocore_admin_subprocessor
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_foundry_segment_1 }
+                            set_name = "Foundry Segment 01"
+                            add_deposit = d_technocore_foundry_subprocessor
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_foundry_segment_2 }
+                            set_name = "Foundry Segment 02"
+                            add_deposit = d_technocore_foundry_subprocessor
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_military_segment_1 }
+                            set_name = "Military Segment 01"
+                            add_deposit = d_technocore_military_subprocessor
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_military_segment_2 }
+                            set_name = "Military Segment 02"
+                            add_deposit = d_technocore_military_subprocessor
+                        }
+                        if = {
                             limit = { has_planet_flag = technocore_research_segment_1 }
-                            set_name = "Technocore Research Segment 01"
+                            set_name = "Research Segment 01"
                             add_deposit = d_technocore_science_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_trade_segment }
-                            set_name = "Technocore Trade Segment 02"
+                            limit = { has_planet_flag = technocore_trade_segment_1 }
+                            set_name = "Trade Segment 01"
+                            add_deposit = d_technocore_trade_subprocessor
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_trade_segment_2 }
+                            set_name = "Trade Segment 02"
                             add_deposit = d_technocore_trade_subprocessor
                         }
                         if = {
                             limit = { has_planet_flag = technocore_research_segment_2 }
-                            set_name = "Technocore Research Segment 02"
+                            set_name = "Research Segment 02"
                             add_deposit = d_technocore_science_subprocessor
                         }
-
                         clear_blockers = yes
                         generate_start_buildings_and_districts = yes
                         generate_start_pops = yes

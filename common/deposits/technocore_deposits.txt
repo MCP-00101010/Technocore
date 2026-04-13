@@ -67,6 +67,11 @@ d_technocore_trade_subprocessor = {
 
 	potential = { always = no }
 
+	resources = {
+		category = planet_deposits
+		produces = { trade = 25 }
+	}
+
 	planet_modifier = {
 		planet_jobs_energy_produces_mult = 0.1
 	}
@@ -85,6 +90,38 @@ d_technocore_trade_subprocessor = {
 			owner = { is_gestalt = yes }
 		}
 		job_technician_add = 200
+	}
+}
+
+d_technocore_foundry_subprocessor = {
+	is_for_colonizable = yes
+	icon = d_station_reactor
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_building_build_speed_mult = 0.25
+		megastructure_build_speed_mult = 0.15
+		planet_jobs_alloys_produces_mult = 0.15
+		planet_metallurgists_produces_mult = 0.15
+		planet_metallurgists_upkeep_mult = -0.10
+	}
+}
+
+d_technocore_military_subprocessor = {
+	is_for_colonizable = yes
+	icon = d_station_reactor
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	planet_modifier = {
+		ship_build_speed_mult = 0.25
+		country_naval_cap_add = 50
+		command_limit_add = 20
+		ship_fire_rate_mult = 0.10
+		ship_armor_mult = 0.10
 	}
 }
 

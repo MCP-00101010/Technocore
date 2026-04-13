@@ -538,10 +538,10 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Technocore Administrative Segment"
+		name = "Administrative Segment 01"
 
 		size = 75
-		orbit_angle = 45
+		orbit_angle = 36
 		orbit_distance = 0
 
 		deposit_blockers = none
@@ -552,16 +552,106 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_admin_segment
+			set_planet_flag = technocore_admin_segment_1
 		}
 	}
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Technocore Research Segment 01"
+		name = "Administrative Segment 02"
 
 		size = 75
-		orbit_angle = -90
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_admin_segment_2
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Foundry Segment 01"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_foundry_segment_1
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Foundry Segment 02"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_foundry_segment_2
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Military Segment 01"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_military_segment_1
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Military Segment 02"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_military_segment_2
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Research Segment 01"
+
+		size = 75
+		orbit_angle = -36
 		orbit_distance = 0
 
 		deposit_blockers = none
@@ -576,28 +666,10 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Technocore Trade Segment 02"
+		name = "Research Segment 02"
 
 		size = 75
-		orbit_angle = -90
-		orbit_distance = 0
-
-		deposit_blockers = none
-		modifiers = none
-
-		init_effect = {
-			prevent_anomaly = yes
-			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_trade_segment
-		}
-	}
-
-	planet = {
-		class = "pc_ringworld_habitable"
-		name = "Technocore Research Segment 02"
-
-		size = 75
-		orbit_angle = -90
+		orbit_angle = -36
 		orbit_distance = 0
 
 		deposit_blockers = none
@@ -607,6 +679,42 @@ technocore_start = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
 			set_planet_flag = technocore_research_segment_2
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Trade Segment 01"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_trade_segment_1
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Trade Segment 02"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_trade_segment_2
 		}
 	}
 

@@ -354,7 +354,7 @@ technocore_start = {
 		orbit_angle = -8
 	}
 
-	change_orbit = 72
+	change_orbit = -48
 
 	planet = {
 		class = "pc_ringworld_habitable"

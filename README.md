@@ -111,7 +111,7 @@ Planet megastructures:
   - Uses a Technocore custom trigger flag for initializer-driven placement
 - Kugelblitz
   - `has_kugelblitz`
-  - Spawns `kugelblitz_2`
+  - Spawns `kugelblitz_3`
   - Uses a Technocore custom trigger flag for initializer-driven placement
 - Orbital Naval Logistics Office
   - `has_orbital_naval_logistics_office`

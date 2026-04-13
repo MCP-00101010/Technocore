@@ -304,7 +304,7 @@ country_event = {
 
                     event_target:technocore_megastructure_system = {
                         spawn_megastructure = {
-                            type = "kugelblitz_2"
+                            type = "kugelblitz_3"
                             owner = root
                             planet = event_target:technocore_megastructure_body
                         }

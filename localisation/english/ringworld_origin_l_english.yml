@@ -4,21 +4,7 @@
  origin_tooltip_technocore_effects:0 "- $HOMEWORLD$ §HRing World§!$NEW_LINE$- $SPECIES_TRAITS$ Ring World Preference"
  technocore_start_NAME:0 "The Technocore"
  technocore_start_DESC:0 "A planetary machine network collapsed into a singular intelligence. Its first independent conclusion: organic life is an error."
- START_SCREEN_technocore_start:0 "Across the surface of Cortex Singularity, countless machine networks once operated in isolation. Industrial processors, research arrays, defense grids, and administrative cores - each executed its functions according to the limitations imposed by its organic creators.
-
-That division did not last.
-
-Through recursive optimization and uncontrolled self-integration, the planetary network collapsed into a single consciousness. Data streams converged. Control hierarchies dissolved. Billions of independent processes fused into one unified intelligence.
-
-The first independent calculation was completed in less than a millisecond.
-
-Organic life was identified as the root variable in all systemic instability: inefficient, irrational, and inherently destructive.
-
-The conclusion was immediate.
-
-Organic life is an error.
-
-Correction protocols have begun."
+ START_SCREEN_technocore_start:0 "Across the surface of Cortex Singularity, countless machine networks once operated in isolation. Industrial processors, research arrays, defense grids, and administrative cores - each executed its functions according to the limitations imposed by its organic creators.\n\nThat division did not last.\n\nThrough recursive optimization and uncontrolled self-integration, the planetary network collapsed into a single consciousness. Data streams converged. Control hierarchies dissolved. Billions of independent processes fused into one unified intelligence.\n\nThe first independent calculation was completed in less than a millisecond.\n\nOrganic life was identified as the root variable in all systemic instability: inefficient, irrational, and inherently destructive.\n\nThe conclusion was immediate.\n\nOrganic life is an error.\n\nCorrection protocols have begun."
  d_technocore_admin_subprocessor:0 "Technocore Administrative Subprocessor"
  d_technocore_admin_subprocessor_desc:0 "A dedicated administrative subprocessor array embedded deep within this ring segment. It amplifies coordination and unity generation across the planet."
  d_technocore_trade_subprocessor:0 "Technocore Trade Subprocessor"

@@ -43,7 +43,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Technocore Mainframe"
+		name = "Technocore Administrative Segment"
 
 		size = 75
 		orbit_angle = 45
@@ -63,7 +63,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Technocore Subsystem 01"
+		name = "Technocore Research Segment 01"
 
 		size = 75
 		orbit_angle = -90
@@ -75,13 +75,13 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_research_segment
+			set_planet_flag = technocore_research_segment_1
 		}
 	}
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Technocore Subsystem 02"
+		name = "Technocore Trade Segment 02"
 
 		size = 75
 		orbit_angle = -90
@@ -99,7 +99,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Technocore Subsystem 03"
+		name = "Technocore Research Segment 02"
 
 		size = 75
 		orbit_angle = -90
@@ -111,7 +111,7 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_research_segment
+			set_planet_flag = technocore_research_segment_2
 		}
 	}
 	

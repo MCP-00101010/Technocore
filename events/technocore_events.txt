@@ -24,6 +24,24 @@ country_event = {
                             species = owner_main_species
                             ethos = owner
                         }
+
+                        if = {
+                            limit = { has_planet_flag = technocore_admin_segment }
+                            set_name = "Technocore Administrative Segment"
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_research_segment_1 }
+                            set_name = "Technocore Research Segment 01"
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_trade_segment }
+                            set_name = "Technocore Trade Segment 02"
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_research_segment_2 }
+                            set_name = "Technocore Research Segment 02"
+                        }
+
                         clear_blockers = yes
                         generate_start_buildings_and_districts = yes
                         generate_start_pops = yes

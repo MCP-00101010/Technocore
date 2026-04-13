@@ -57,6 +57,8 @@ d_technocore_admin_subprocessor = {
 			owner = { is_gestalt = yes }
 		}
 		job_coordinator_add = 200
+		job_patrol_drone_add = 100
+		job_logistics_drone_add = 100
 	}
 }
 
@@ -90,7 +92,7 @@ d_technocore_trade_subprocessor = {
 			exists = owner
 			owner = { is_gestalt = yes }
 		}
-		job_technician_add = 200
+		job_technician_drone_add = 200
 	}
 }
 

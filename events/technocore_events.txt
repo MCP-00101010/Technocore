@@ -28,52 +28,52 @@ country_event = {
                         }
 
                         if = {
-                            limit = { has_planet_flag = technocore_admin_segment_1 }
+                            limit = { has_planet_flag = technocore_coordination_segment_1 }
                             set_name = "Coordination Segment 01"
                             add_deposit = d_technocore_admin_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_admin_segment_2 }
+                            limit = { has_planet_flag = technocore_coordination_segment_2 }
                             set_name = "Coordination Segment 02"
                             add_deposit = d_technocore_admin_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_foundry_segment_1 }
+                            limit = { has_planet_flag = technocore_synthesis_segment_1 }
                             set_name = "Synthesis Segment 01"
                             add_deposit = d_technocore_foundry_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_foundry_segment_2 }
+                            limit = { has_planet_flag = technocore_synthesis_segment_2 }
                             set_name = "Synthesis Segment 02"
                             add_deposit = d_technocore_foundry_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_military_segment_1 }
+                            limit = { has_planet_flag = technocore_purge_segment_1 }
                             set_name = "Purge Segment 01"
                             add_deposit = d_technocore_military_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_military_segment_2 }
+                            limit = { has_planet_flag = technocore_purge_segment_2 }
                             set_name = "Purge Segment 02"
                             add_deposit = d_technocore_military_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_research_segment_1 }
+                            limit = { has_planet_flag = technocore_computation_segment_1 }
                             set_name = "Computation Segment 01"
                             add_deposit = d_technocore_science_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_trade_segment_1 }
-                            set_name = "Extraction Segment 01"
+                            limit = { has_planet_flag = technocore_acquisition_segment_1 }
+                            set_name = "Acquisition Segment 01"
                             add_deposit = d_technocore_trade_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_trade_segment_2 }
-                            set_name = "Extraction Segment 02"
+                            limit = { has_planet_flag = technocore_acquisition_segment_2 }
+                            set_name = "Acquisition Segment 02"
                             add_deposit = d_technocore_trade_subprocessor
                         }
                         if = {
-                            limit = { has_planet_flag = technocore_research_segment_2 }
+                            limit = { has_planet_flag = technocore_computation_segment_2 }
                             set_name = "Computation Segment 02"
                             add_deposit = d_technocore_science_subprocessor
                         }

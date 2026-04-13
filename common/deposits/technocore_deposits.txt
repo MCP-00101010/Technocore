@@ -74,6 +74,7 @@ d_technocore_trade_subprocessor = {
 
 	planet_modifier = {
 		planet_jobs_energy_produces_mult = 0.1
+		planet_jobs_energy_upkeep_mult = -0.15
 	}
 
 	triggered_planet_modifier = {

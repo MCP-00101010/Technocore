@@ -130,7 +130,7 @@ country_event = {
 
                     event_target:technocore_megastructure_system = {
                         spawn_megastructure = {
-                            type = "hyperstructural_ass_4"
+                            type = "hyperstructural_ass_3"
                             owner = root
                             planet = event_target:technocore_megastructure_body
                         }
@@ -259,15 +259,6 @@ country_event = {
                             type = "crystal_megabore_1"
                             owner = root
                             planet = event_target:technocore_megastructure_body
-                        }
-                    }
-
-                    event_target:technocore_megastructure_body = {
-                        change_pc = pc_melted_frozen
-                        add_deposit = d_rare_crystals_3
-                        add_modifier = {
-                            modifier = megabore_mod
-                            days = -1
                         }
                     }
                 }

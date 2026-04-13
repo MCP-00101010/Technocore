@@ -1138,4 +1138,60 @@ technocore_start = {
 			set_planet_flag = technocore_molten_planet
 		}
 	}
+
+	change_orbit = 93
+
+	planet = {
+		class = "pc_black_hole"
+		name = "Terminus Singularity"
+
+		size = 30
+		orbit_angle = 0
+		orbit_distance = 0
+	}
+
+	planet = {
+		class = "pc_pulsar"
+		name = "Protocol Pulsar"
+
+		size = 30
+		orbit_angle = -60
+		orbit_distance = 0
+	}
+
+	planet = {
+		class = "pc_neutron_star"
+		name = "Cortex Neutron"
+
+		size = 30
+		orbit_angle = -60
+		orbit_distance = 0
+	}
+
+	planet = {
+		class = "pc_black_hole"
+		name = "Abyss Protocol"
+
+		size = 30
+		orbit_angle = -60
+		orbit_distance = 0
+	}
+
+	planet = {
+		class = "pc_pulsar"
+		name = "Silence Pulsar"
+
+		size = 30
+		orbit_angle = -60
+		orbit_distance = 0
+	}
+
+	planet = {
+		class = "pc_neutron_star"
+		name = "Null Neutron"
+
+		size = 30
+		orbit_angle = -120
+		orbit_distance = 0
+	}
 }

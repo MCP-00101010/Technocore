@@ -46,40 +46,7 @@ technocore_start = {
 		orbit_angle = 0
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
-		}
-	}
-
-	planet = {
-		class = pc_asteroid
-		size = 5
-		orbit_distance = 0
-		orbit_angle = -8
-
-		init_effect = {
-			set_planet_flag = asteroid_has_artillery
-		}
-	}
-
-	planet = {
-		class = pc_asteroid
-		size = 5
-		orbit_distance = 0
-		orbit_angle = -8
-
-		init_effect = {
-			set_planet_flag = technocore_mining_asteroid
-		}
-	}
-
-	planet = {
-		class = pc_asteroid
-		size = 5
-		orbit_distance = 0
-		orbit_angle = -8
-
-		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -145,7 +112,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -178,7 +145,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -211,7 +178,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -244,7 +211,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -277,7 +244,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -310,7 +277,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -343,7 +310,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -376,7 +343,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -409,7 +376,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -442,7 +409,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -475,7 +442,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -508,7 +475,40 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
+		}
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = asteroid_has_artillery
+		}
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technocore_mining_asteroid
+		}
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -536,7 +536,7 @@ technocore_start = {
 
 	change_orbit = -90
 
-	change_orbit = 35
+	change_orbit = 58
 
 	planet = {
 		class = "pc_machine"
@@ -604,7 +604,7 @@ technocore_start = {
 		}
 	}
 
-	change_orbit = -20
+	change_orbit = -33
 	
 	planet = {
 		class = "pc_molten"

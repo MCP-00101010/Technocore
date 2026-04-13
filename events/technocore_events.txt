@@ -34,6 +34,7 @@ country_event = {
                         if = {
                             limit = { has_planet_flag = technocore_research_segment_1 }
                             set_name = "Technocore Research Segment 01"
+                            add_deposit = d_payback_habitat_research
                         }
                         if = {
                             limit = { has_planet_flag = technocore_trade_segment }
@@ -42,6 +43,7 @@ country_event = {
                         if = {
                             limit = { has_planet_flag = technocore_research_segment_2 }
                             set_name = "Technocore Research Segment 02"
+                            add_deposit = d_payback_habitat_research
                         }
 
                         clear_blockers = yes

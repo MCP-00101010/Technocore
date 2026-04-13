@@ -112,7 +112,7 @@ technocore_start = {
 		orbit_angle = -8
 
 		init_effect = {
-			set_planet_flag = technorore_research_asteroid
+			set_planet_flag = technocore_research_asteroid
 		}
 	}
 
@@ -540,10 +540,59 @@ technocore_start = {
 
 	planet = {
 		class = "pc_machine"
-		name = "Remnant"
+		name = "Cortex Singularity"
 
-		size = 75
+		size = 50
 		starting_planet = yes
+		orbit_angle = -90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_nuked"
+		name = "Ashen Protocol"
+
+		size = 50
+		starting_planet = yes
+		orbit_angle = -90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_relic"
+		name = "Cortex Memory"
+
+		size = 50
+		orbit_angle = -90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+		planet = {
+		class = "pc_nanotech"
+		name = "Nanite Convergence"
+
+		size = 50
 		orbit_angle = -90
 		orbit_distance = 0
 

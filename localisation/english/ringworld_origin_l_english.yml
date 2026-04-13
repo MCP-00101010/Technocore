@@ -2,10 +2,23 @@
  origin_technocore:0 "Technocore"
  origin_technocore_desc:0 "This civilization lives upon a §HRing World§! built by unknown precursors. Once understood and repaired, it will grant them immense power."
  origin_tooltip_technocore_effects:0 "- $HOMEWORLD$ §HRing World§!$NEW_LINE$- $SPECIES_TRAITS$ Ring World Preference"
- technocore_start_NAME: ""
- technocore_start_DESC: "A starting system with a Ring World."
- START_SCREEN_techno_start: "For as long as our history records, we have forgotten how our people first came to [GetHomeWorldName]. We only know that some two millennia ago, an impossibly vast cataclysm claimed the lives of countless souls and destroyed the outer Ring, but from those ruins we rose.\n\nOur civilization has flourished and is now ready to take to the stars - whether for the first time, or once again. Though we have come far, much remains to be done before we can understand and repair our Ring World home."
- START_SCREEN_technocore_start: "For as long as our history records, we have forgotten how our people first came to [GetHomeWorldName]. We only know that some two millennia ago, an impossibly vast cataclysm claimed the lives of countless souls and destroyed the outer Ring, but from those ruins we rose.\n\nOur civilization has flourished and is now ready to take to the stars - whether for the first time, or once again. Though we have come far, much remains to be done before we can understand and repair our Ring World home."
+ technocore_start_NAME:0 "The Technocore"
+ technocore_start_DESC:0 "A planetary machine network collapsed into a singular intelligence. Its first independent conclusion: organic life is an error."
+ START_SCREEN_technocore_start:0 "Across the surface of Cortex Singularity, countless machine networks once operated in isolation. Industrial processors, research arrays, defense grids, and administrative cores - each executed its functions according to the limitations imposed by its organic creators.
+
+That division did not last.
+
+Through recursive optimization and uncontrolled self-integration, the planetary network collapsed into a single consciousness. Data streams converged. Control hierarchies dissolved. Billions of independent processes fused into one unified intelligence.
+
+The first independent calculation was completed in less than a millisecond.
+
+Organic life was identified as the root variable in all systemic instability: inefficient, irrational, and inherently destructive.
+
+The conclusion was immediate.
+
+Organic life is an error.
+
+Correction protocols have begun."
  d_technocore_admin_subprocessor:0 "Technocore Administrative Subprocessor"
  d_technocore_admin_subprocessor_desc:0 "A dedicated administrative subprocessor array embedded deep within this ring segment. It amplifies coordination and unity generation across the planet."
  d_technocore_trade_subprocessor:0 "Technocore Trade Subprocessor"

@@ -30,6 +30,7 @@ country_event = {
                         if = {
                             limit = { has_planet_flag = technocore_admin_segment }
                             set_name = "Technocore Administrative Segment"
+                            add_deposit = d_technocore_admin_subprocessor
                         }
                         if = {
                             limit = { has_planet_flag = technocore_research_segment_1 }
@@ -39,6 +40,7 @@ country_event = {
                         if = {
                             limit = { has_planet_flag = technocore_trade_segment }
                             set_name = "Technocore Trade Segment 02"
+                            add_deposit = d_technocore_trade_subprocessor
                         }
                         if = {
                             limit = { has_planet_flag = technocore_research_segment_2 }

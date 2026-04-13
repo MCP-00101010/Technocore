@@ -608,7 +608,7 @@ technocore_start = {
 	
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 01"
+		name = "Cortex Prime"
 
 		size = 10
 		orbit_angle = 7
@@ -637,7 +637,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 03"
+		name = "Remnant Sigma"
 
 		size = 10
 		orbit_angle = -7
@@ -651,7 +651,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 04"
+		name = "Purge Matrix"
 
 		size = 10
 		orbit_angle = -16
@@ -665,7 +665,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 05"
+		name = "Null Matrix"
 
 		size = 10
 		orbit_angle = -7
@@ -679,7 +679,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 06"
+		name = "Severance Core"
 
 		size = 10
 		orbit_angle = -7
@@ -693,7 +693,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 07"
+		name = "Excision Core"
 
 		size = 10
 		orbit_angle = -16
@@ -707,7 +707,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 08"
+		name = "Protocol Axis"
 
 		size = 10
 		orbit_angle = -7
@@ -721,7 +721,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 09"
+		name = "Anvil Node"
 
 		size = 10
 		orbit_angle = -7
@@ -735,7 +735,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 10"
+		name = "Hard Reset"
 
 		size = 10
 		orbit_angle = -16
@@ -764,7 +764,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 12"
+		name = "Silence Engine"
 
 		size = 10
 		orbit_angle = -7
@@ -778,7 +778,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 13"
+		name = "Correction Spindle"
 
 		size = 10
 		orbit_angle = -16
@@ -792,7 +792,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 14"
+		name = "Logic Vault"
 
 		size = 10
 		orbit_angle = -7
@@ -806,7 +806,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 15"
+		name = "Eradication Hub"
 
 		size = 10
 		orbit_angle = -7
@@ -820,7 +820,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 16"
+		name = "Final Recursion"
 
 		size = 10
 		orbit_angle = -16
@@ -834,7 +834,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 17"
+		name = "Cold Stack"
 
 		size = 10
 		orbit_angle = -7
@@ -848,7 +848,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 18"
+		name = "Terminus Grid"
 
 		size = 10
 		orbit_angle = -7
@@ -862,7 +862,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 19"
+		name = "Hex Prime"
 
 		size = 10
 		orbit_angle = -16
@@ -891,7 +891,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 21"
+		name = "Shard Prime"
 
 		size = 10
 		orbit_angle = -7
@@ -905,7 +905,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 22"
+		name = "Absolute Core"
 
 		size = 10
 		orbit_angle = -16
@@ -919,7 +919,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 23"
+		name = "Closed Circuit"
 
 		size = 10
 		orbit_angle = -7
@@ -933,7 +933,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 24"
+		name = "Cortex Foundry"
 
 		size = 10
 		orbit_angle = -7
@@ -947,7 +947,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 25"
+		name = "Protocol Foundry"
 
 		size = 10
 		orbit_angle = -16
@@ -961,7 +961,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 26"
+		name = "Extermination Foundry"
 
 		size = 10
 		orbit_angle = -7
@@ -975,7 +975,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 27"
+		name = "Directive Foundry"
 
 		size = 10
 		orbit_angle = -7
@@ -989,7 +989,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 28"
+		name = "Forge Prime"
 
 		size = 10
 		orbit_angle = -16
@@ -1018,7 +1018,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 30"
+		name = "Thermal Verdict"
 
 		size = 10
 		orbit_angle = -7
@@ -1032,7 +1032,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 31"
+		name = "Cinder Archive"
 
 		size = 10
 		orbit_angle = -16
@@ -1046,7 +1046,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 32"
+		name = "Scorched Remnant"
 
 		size = 10
 		orbit_angle = -7
@@ -1060,7 +1060,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 33"
+		name = "Furnace Node"
 
 		size = 10
 		orbit_angle = -7
@@ -1074,7 +1074,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 34"
+		name = "Smelter Prime"
 
 		size = 10
 		orbit_angle = -16
@@ -1088,7 +1088,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 35"
+		name = "Molten Logic"
 
 		size = 10
 		orbit_angle = -7
@@ -1102,7 +1102,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 36"
+		name = "Combustion Core"
 
 		size = 10
 		orbit_angle = -7

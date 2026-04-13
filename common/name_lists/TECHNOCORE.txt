@@ -69,7 +69,7 @@ TECHNOCORE = {
 
 		pc_molten = {
 			names = {
-				TECHNOCORE_PLANET_Furnace_Node TECHNOCORE_PLANET_Smelter_Prime TECHNOCORE_PLANET_Molten_Logic TECHNOCORE_PLANET_Combustion_Core
+				TECHNOCORE_PLANET_Furnace_Node TECHNOCORE_PLANET_Smelter_Prime TECHNOCORE_PLANET_Molten_Logic TECHNOCORE_PLANET_Combustion_Core TECHNOCORE_PLANET_Thermal_Verdict
 			}
 		}
 	}

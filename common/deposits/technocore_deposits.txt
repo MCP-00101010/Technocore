@@ -87,3 +87,17 @@ d_technocore_trade_subprocessor = {
 		job_technician_add = 200
 	}
 }
+
+d_technocore_dominance_subprocessor = {
+	is_for_colonizable = yes
+	icon = d_station_reactor
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_pop_assembly_mult = 0.25
+		planet_stability_add = 10
+		planet_crime_add = -30
+	}
+}

@@ -11,3 +11,5 @@
  d_technocore_trade_subprocessor_desc:0 "A dedicated commercial subprocessor array embedded deep within this ring segment. It optimizes energy throughput and logistical exchange across the planet."
  d_technocore_science_subprocessor:0 "Technocore Science Subprocessor"
  d_technocore_science_subprocessor_desc:0 "A dedicated research subprocessor array embedded deep within this ring segment. It accelerates scientific output across all disciplines."
+ d_technocore_dominance_subprocessor:0 "Technocore Dominance Subprocessor"
+ d_technocore_dominance_subprocessor_desc:0 "A hardened dominance subprocessor fused into the homeworld's planetary core. It accelerates assembly throughput, reinforces protocol cohesion, and suppresses all residual disorder beneath Eradication Protocol's absolute control."

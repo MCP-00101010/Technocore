@@ -45,8 +45,6 @@ technocore_start = {
 		class = "pc_ringworld_habitable"
 		size = 40
 		name = "Technocore Mainframe"
-		
-		starting_planet = yes
 
 		orbit_angle = 45
 		orbit_distance = 0
@@ -58,6 +56,7 @@ technocore_start = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
 		}
 	}
 
@@ -110,12 +109,15 @@ technocore_start = {
 		name = "Remnant"
 
 		size = 75
+		starting_planet = yes
 		orbit_angle = -90
 		orbit_distance = 0
 
+		deposit_blockers = none
+		modifiers = none
+
 		init_effect = {
 			prevent_anomaly = yes
-			set_planet_flag = technocore_starting_colony
 		}
 	}
 

@@ -101,13 +101,17 @@ Planet megastructures:
 - Crystal Megabore
   - `has_crystal_megabore`
   - Spawns `crystal_megabore_1`
+- Planetary Drive Yard
+  - `giga_drive_yard`
+  - Spawns `planetary_drive_yard_1`
+  - Uses Giga's own persistent source flag
 - Equatorial Shipyard
   - `has_equatorial_shipyard`
   - Spawns `eq_shipyard_2`
   - Uses a Technocore custom trigger flag for initializer-driven placement
 - Kugelblitz
   - `has_kugelblitz`
-  - Spawns `kugelblitz_3`
+  - Spawns `kugelblitz_2`
   - Uses a Technocore custom trigger flag for initializer-driven placement
 - Orbital Naval Logistics Office
   - `has_orbital_naval_logistics_office`

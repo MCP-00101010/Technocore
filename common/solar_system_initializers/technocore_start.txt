@@ -340,7 +340,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Kugelblitz 15"
+		name = "Planetary Drive Yard"
 
 		size = 10
 		orbit_angle = -7
@@ -349,6 +349,7 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
+			set_planet_flag = giga_drive_yard
 		}
 	}
 

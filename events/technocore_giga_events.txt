@@ -288,6 +288,18 @@ country_event = {
                 }
 
                 if = {
+                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = giga_drive_yard } }
+
+                    event_target:technocore_megastructure_system = {
+                        spawn_megastructure = {
+                            type = "planetary_drive_yard_1"
+                            owner = root
+                            planet = event_target:technocore_megastructure_body
+                        }
+                    }
+                }
+
+                if = {
                     limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_kugelblitz } }
 
                     event_target:technocore_megastructure_system = {
@@ -326,6 +338,7 @@ country_event = {
             # - Macroengineering Testing Station uses Giga's own has_test_site source flag.
             # - Orbital Artificial Ecosystem uses Giga's own has_eco_arc source flag.
             # - Crystal Megabore uses Giga's own has_crystal_megabore source flag.
+            # - Planetary Drive Yard uses Giga's own giga_drive_yard source flag.
             # - Hyperstructural Assembly Yard uses the custom Technocore flag
             #   has_hyperstructural_assembly_yard for initializer-driven spawning.
             # - Equatorial Shipyard uses the custom Technocore flag

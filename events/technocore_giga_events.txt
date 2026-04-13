@@ -252,56 +252,6 @@ country_event = {
                 }
 
                 if = {
-                    limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_eco_arc } }
-
-                    event_target:technocore_megastructure_system = {
-                        spawn_megastructure = {
-                            type = "orbital_artificial_eco_3"
-                            owner = root
-                            planet = event_target:technocore_megastructure_body
-                        }
-                    }
-
-                    event_target:technocore_megastructure_body = {
-                        set_planet_flag = has_eco_arc
-                        set_planet_flag = has_orbital_artificial_eco
-                        set_planet_entity = {
-                            entity = "zoo_toxic_planet_01_entity"
-                        }
-                    }
-
-                    event_target:technocore_megastructure_system = {
-                        random_system_megastructure = {
-                            limit = { is_megastructure_type = orbital_artificial_eco_3 }
-                            set_name = "name_orbital_artificial_eco"
-                            set_megastructure_flag = giga_dismantle_ready
-                        }
-
-                        every_system_planet = {
-                            limit = { giga_is_science_candidate = yes }
-                            remove_trade_deposits = yes
-                            remove_planet_flag = giga_eco_arcology_stage_1
-                            remove_planet_flag = giga_eco_arcology_stage_2
-                            remove_planet_flag = giga_eco_arcology_stage_3
-                            set_planet_flag = giga_eco_arcology_stage_4
-                            add_deposit = d_society_1
-                            add_deposit = d_society_1
-                            add_deposit = d_society_2
-                            add_deposit = d_society_2
-                            science_kilo_update_orbital_effect = yes
-                            add_modifier = {
-                                modifier = orbital_eco_arcology_4_mod
-                                days = -1
-                            }
-                            if = {
-                                limit = { has_modifier = orbital_eco_arcology_3_mod }
-                                remove_modifier = orbital_eco_arcology_3_mod
-                            }
-                        }
-                    }
-                }
-
-                if = {
                     limit = { event_target:technocore_megastructure_body = { has_planet_flag = has_crystal_megabore } }
 
                     event_target:technocore_megastructure_system = {
@@ -383,7 +333,6 @@ country_event = {
             #   underlying source flag is still has_matrioshka_brain.
             # - Asteroid Artillery uses Giga's own asteroid_has_artillery source flag.
             # - Macroengineering Testing Station uses Giga's own has_test_site source flag.
-            # - Orbital Artificial Ecosystem uses Giga's own has_eco_arc source flag.
             # - Crystal Megabore uses Giga's own has_crystal_megabore source flag.
             # - Planetary Drive Yard uses Giga's own giga_drive_yard source flag.
             # - Hyperstructural Assembly Yard uses the custom Technocore flag

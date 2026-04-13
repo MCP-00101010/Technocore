@@ -95,9 +95,6 @@ Planet megastructures:
 - Macroengineering Testing Station
   - `has_test_site`
   - Spawns `macro_test_site_3`
-- Orbital Artificial Ecosystem
-  - `has_eco_arc`
-  - Spawns `orbital_artificial_eco_3`
 - Crystal Megabore
   - `has_crystal_megabore`
   - Spawns `crystal_megabore_1`

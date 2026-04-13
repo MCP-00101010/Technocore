@@ -19,7 +19,7 @@ technocore_start = {
 	class = sc_giga_o_star
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 120
+		radius = 127
 	}
 
 	planet = {
@@ -42,7 +42,7 @@ technocore_start = {
 	planet = {
 		class = pc_asteroid
 		size = 5
-		orbit_distance = 120
+		orbit_distance = 127
 		orbit_angle = 0
 	}
 
@@ -354,7 +354,7 @@ technocore_start = {
 		orbit_angle = -8
 	}
 
-	change_orbit = -48
+	change_orbit = -55
 
 	planet = {
 		class = "pc_ringworld_habitable"
@@ -449,7 +449,7 @@ technocore_start = {
 		}
 	}
 
-	change_orbit = -41
+	change_orbit = -10
 	
 	planet = {
 		class = "pc_molten"
@@ -496,7 +496,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Arc Furnace"
+		name = "Kugelblitz 04"
 
 		size = 10
 		orbit_angle = -16
@@ -505,7 +505,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_arc_furnace
 		}
 	}
 
@@ -670,7 +669,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Macroengineering Testing Station"
+		name = "Kugelblitz 16"
 
 		size = 10
 		orbit_angle = -16
@@ -679,7 +678,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_test_site
 		}
 	}
 

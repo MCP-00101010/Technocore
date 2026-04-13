@@ -12,6 +12,8 @@ country_event = {
             save_event_target_as = technocore_dispatch_owner
 
             capital_scope = {
+                set_name = "Remnant"
+
                 solar_system = {
                     every_system_planet = {
                         limit = {

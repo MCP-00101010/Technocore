@@ -19,7 +19,7 @@ technocore_start = {
 	class = sc_giga_o_star
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 127
+		radius = 162
 	}
 
 	planet = {
@@ -42,8 +42,12 @@ technocore_start = {
 	planet = {
 		class = pc_asteroid
 		size = 5
-		orbit_distance = 127
+		orbit_distance = 162
 		orbit_angle = 0
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -65,6 +69,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -86,6 +94,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -107,6 +119,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -128,6 +144,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -149,6 +169,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -170,6 +194,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -191,6 +219,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -212,6 +244,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -233,6 +269,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -254,6 +294,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -275,6 +319,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -296,6 +344,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -317,6 +369,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -338,6 +394,10 @@ technocore_start = {
 		size = 5
 		orbit_distance = 0
 		orbit_angle = -8
+
+		init_effect = {
+			set_planet_flag = technorore_research_asteroid
+		}
 	}
 
 	planet = {
@@ -354,7 +414,7 @@ technocore_start = {
 		orbit_angle = -8
 	}
 
-	change_orbit = -55
+	change_orbit = -90
 
 	planet = {
 		class = "pc_ringworld_habitable"
@@ -449,7 +509,7 @@ technocore_start = {
 		}
 	}
 
-	change_orbit = -10
+	change_orbit = -20
 	
 	planet = {
 		class = "pc_molten"

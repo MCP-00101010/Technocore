@@ -538,7 +538,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Administrative Segment 01"
+		name = "Synthesis Segment 02"
 
 		size = 75
 		orbit_angle = 36
@@ -552,31 +552,13 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_admin_segment_1
+			set_planet_flag = technocore_foundry_segment_2
 		}
 	}
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Administrative Segment 02"
-
-		size = 75
-		orbit_angle = -36
-		orbit_distance = 0
-
-		deposit_blockers = none
-		modifiers = none
-
-		init_effect = {
-			prevent_anomaly = yes
-			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_admin_segment_2
-		}
-	}
-
-	planet = {
-		class = "pc_ringworld_habitable"
-		name = "Foundry Segment 01"
+		name = "Synthesis Segment 01"
 
 		size = 75
 		orbit_angle = -36
@@ -594,43 +576,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Foundry Segment 02"
-
-		size = 75
-		orbit_angle = -36
-		orbit_distance = 0
-
-		deposit_blockers = none
-		modifiers = none
-
-		init_effect = {
-			prevent_anomaly = yes
-			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_foundry_segment_2
-		}
-	}
-
-	planet = {
-		class = "pc_ringworld_habitable"
-		name = "Military Segment 01"
-
-		size = 75
-		orbit_angle = -36
-		orbit_distance = 0
-
-		deposit_blockers = none
-		modifiers = none
-
-		init_effect = {
-			prevent_anomaly = yes
-			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_military_segment_1
-		}
-	}
-
-	planet = {
-		class = "pc_ringworld_habitable"
-		name = "Military Segment 02"
+		name = "Purge Segment 02"
 
 		size = 75
 		orbit_angle = -36
@@ -648,7 +594,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Research Segment 01"
+		name = "Purge Segment 01"
 
 		size = 75
 		orbit_angle = -36
@@ -660,13 +606,13 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_research_segment_1
+			set_planet_flag = technocore_military_segment_1
 		}
 	}
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Research Segment 02"
+		name = "Extraction Segment 02"
 
 		size = 75
 		orbit_angle = -36
@@ -678,13 +624,13 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_research_segment_2
+			set_planet_flag = technocore_trade_segment_2
 		}
 	}
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Trade Segment 01"
+		name = "Extraction Segment 01"
 
 		size = 75
 		orbit_angle = -36
@@ -702,7 +648,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Trade Segment 02"
+		name = "Coordination Segment 02"
 
 		size = 75
 		orbit_angle = -36
@@ -714,7 +660,61 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
-			set_planet_flag = technocore_trade_segment_2
+			set_planet_flag = technocore_admin_segment_2
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Coordination Segment 01"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_admin_segment_1
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Computation Segment 02"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_research_segment_2
+		}
+	}
+
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Computation Segment 01"
+
+		size = 75
+		orbit_angle = -36
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_research_segment_1
 		}
 	}
 

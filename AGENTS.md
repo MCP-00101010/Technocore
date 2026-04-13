@@ -4,6 +4,14 @@
 
 Technocore is a Stellaris origin mod built around a custom Ring World start. It also recreates supported megastructures in the starting system at game start by scanning planet flags and spawning the correct finished megastructure.
 
+## Current Playthrough Identity
+
+- The empire name is `Eradication Protocol`.
+- The primary species name is `Cortex Node`.
+- The build is a Determined Exterminator machine intelligence.
+- Use this identity when writing new names, flavor text, startup text, or localisation for this playthrough unless the user asks for a different tone or faction concept.
+- Keep new flavour consistent with a ruthless machine intelligence worldview and the Technocore origin theme.
+
 ## Key Behavior
 
 - The origin is `origin_technocore`.

@@ -39,6 +39,321 @@ technocore_start = {
 		}
 	}
 
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 120
+		orbit_angle = 0
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
+	planet = {
+		class = pc_asteroid
+		size = 5
+		orbit_distance = 0
+		orbit_angle = -8
+	}
+
 	change_orbit = 72
 
 	planet = {

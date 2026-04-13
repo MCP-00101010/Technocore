@@ -693,7 +693,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Strategic Coordination Center"
+		name = "Kugelblitz 07"
 
 		size = 10
 		orbit_angle = -16
@@ -702,7 +702,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_strategic_coordination_center
 		}
 	}
 
@@ -736,7 +735,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Mega Art Installation"
+		name = "Kugelblitz 10"
 
 		size = 10
 		orbit_angle = -16
@@ -745,7 +744,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_mega_art_installation
 		}
 	}
 
@@ -780,7 +778,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Interstellar Assembly"
+		name = "Kugelblitz 13"
 
 		size = 10
 		orbit_angle = -16
@@ -789,7 +787,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_interstellar_assembly
 		}
 	}
 
@@ -809,7 +806,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Planetary Drive Yard"
+		name = "Kugelblitz 15"
 
 		size = 10
 		orbit_angle = -7
@@ -818,7 +815,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = giga_drive_yard
 		}
 	}
 
@@ -951,7 +947,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Equatorial Shipyard"
+		name = "Kugelblitz 25"
 
 		size = 10
 		orbit_angle = -16
@@ -960,7 +956,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_equatorial_shipyard
 		}
 	}
 
@@ -1037,7 +1032,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Orbital Naval Logistics Office"
+		name = "Kugelblitz 31"
 
 		size = 10
 		orbit_angle = -16
@@ -1046,7 +1041,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_orbital_naval_logistics_office
 		}
 	}
 
@@ -1080,7 +1074,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Science Nexus"
+		name = "Kugelblitz 34"
 
 		size = 10
 		orbit_angle = -16
@@ -1089,7 +1083,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_science_nexus
 		}
 	}
 

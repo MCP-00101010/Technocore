@@ -757,7 +757,7 @@ technocore_start = {
 
 	planet = {
 		class = "pc_molten"
-		name = "Crystal Megabore"
+		name = "Kugelblitz 22"
 
 		size = 10
 		orbit_angle = -16
@@ -766,7 +766,6 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_molten_planet
-			set_planet_flag = has_crystal_megabore
 		}
 	}
 

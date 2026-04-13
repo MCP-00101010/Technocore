@@ -70,12 +70,15 @@ country_event = {
                         set_planet_flag = technocore_megastructure_initialized
                     }
 
-                    every_system_planet = {
-                        limit = { has_planet_flag = technocore_molten_planet }
+            every_system_planet = {
+                limit = {
+                    has_planet_flag = technocore_molten_planet
+                    NOT = { has_planet_flag = has_crystal_megabore }
+                }
 
-                        clear_deposits = yes
-                        change_pc = pc_molten
-                    }
+                clear_deposits = yes
+                change_pc = pc_molten
+            }
                 }
             }
         }

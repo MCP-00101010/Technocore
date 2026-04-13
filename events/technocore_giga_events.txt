@@ -256,9 +256,27 @@ country_event = {
 
                     event_target:technocore_megastructure_system = {
                         spawn_megastructure = {
-                            type = "orbital_artificial_eco_3"
+                            type = "orbital_artificial_eco_0"
                             owner = root
                             planet = event_target:technocore_megastructure_body
+                        }
+
+                        random_system_megastructure = {
+                            limit = { is_megastructure_type = orbital_artificial_eco_0 }
+                            upgrade_megastructure_to = orbital_artificial_eco_1
+                            finish_upgrade = yes
+                        }
+
+                        random_system_megastructure = {
+                            limit = { is_megastructure_type = orbital_artificial_eco_1 }
+                            upgrade_megastructure_to = orbital_artificial_eco_2
+                            finish_upgrade = yes
+                        }
+
+                        random_system_megastructure = {
+                            limit = { is_megastructure_type = orbital_artificial_eco_2 }
+                            upgrade_megastructure_to = orbital_artificial_eco_3
+                            finish_upgrade = yes
                         }
                     }
                 }
@@ -271,6 +289,15 @@ country_event = {
                             type = "crystal_megabore_1"
                             owner = root
                             planet = event_target:technocore_megastructure_body
+                        }
+                    }
+
+                    event_target:technocore_megastructure_body = {
+                        change_pc = pc_melted_frozen
+                        add_deposit = d_rare_crystals_3
+                        add_modifier = {
+                            modifier = megabore_mod
+                            days = -1
                         }
                     }
                 }

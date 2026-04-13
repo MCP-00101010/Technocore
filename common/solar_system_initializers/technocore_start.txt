@@ -19,7 +19,7 @@ technocore_start = {
 	class = sc_giga_o_star
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 172
+		radius = 177
 	}
 
 	planet = {
@@ -42,7 +42,7 @@ technocore_start = {
 	planet = {
 		class = pc_asteroid
 		size = 5
-		orbit_distance = 172
+		orbit_distance = 177
 		orbit_angle = 0
 
 		init_effect = {
@@ -534,7 +534,7 @@ technocore_start = {
 		}
 	}
 
-	change_orbit = -100
+	change_orbit = -105
 
 	planet = {
 		class = "pc_ringworld_habitable"
@@ -635,7 +635,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Cortex Prime"
 
-		size = 10
+		size = 20
 		orbit_angle = 7
 		orbit_distance = 0
 
@@ -649,7 +649,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Kugelblitz 02"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -664,7 +664,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Remnant Sigma"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -678,7 +678,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Purge Matrix"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -692,7 +692,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Null Matrix"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -706,7 +706,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Severance Core"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -720,7 +720,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Excision Core"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -734,7 +734,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Protocol Axis"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -748,7 +748,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Anvil Node"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -762,7 +762,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Hard Reset"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -776,7 +776,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Kugelblitz 11"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -791,7 +791,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Silence Engine"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -805,7 +805,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Correction Spindle"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -819,7 +819,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Logic Vault"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -833,7 +833,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Eradication Hub"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -847,7 +847,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Final Recursion"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -861,7 +861,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Cold Stack"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -875,7 +875,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Terminus Grid"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -889,7 +889,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Hex Prime"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -903,7 +903,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Kugelblitz 20"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -918,7 +918,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Shard Prime"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -932,7 +932,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Absolute Core"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -946,7 +946,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Closed Circuit"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -960,7 +960,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Cortex Foundry"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -974,7 +974,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Protocol Foundry"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -988,7 +988,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Extermination Foundry"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1002,7 +1002,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Directive Foundry"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1016,7 +1016,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Forge Prime"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -1030,7 +1030,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Kugelblitz 29"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1045,7 +1045,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Thermal Verdict"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1059,7 +1059,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Cinder Archive"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -1073,7 +1073,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Scorched Remnant"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1087,7 +1087,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Furnace Node"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1101,7 +1101,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Smelter Prime"
 
-		size = 10
+		size = 20
 		orbit_angle = -16
 		orbit_distance = 0
 
@@ -1115,7 +1115,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Molten Logic"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1129,7 +1129,7 @@ technocore_start = {
 		class = "pc_molten"
 		name = "Combustion Core"
 
-		size = 10
+		size = 20
 		orbit_angle = -7
 		orbit_distance = 0
 
@@ -1139,13 +1139,13 @@ technocore_start = {
 		}
 	}
 
-	change_orbit = 93
+	change_orbit = 113
 
 	planet = {
 		class = "pc_black_hole"
 		name = "Terminus Singularity"
 
-		size = 30
+		size = 20
 		orbit_angle = 0
 		orbit_distance = 0
 	}
@@ -1154,7 +1154,7 @@ technocore_start = {
 		class = "pc_pulsar"
 		name = "Protocol Pulsar"
 
-		size = 30
+		size = 40
 		orbit_angle = -60
 		orbit_distance = 0
 	}
@@ -1172,7 +1172,7 @@ technocore_start = {
 		class = "pc_black_hole"
 		name = "Abyss Protocol"
 
-		size = 30
+		size = 20
 		orbit_angle = -60
 		orbit_distance = 0
 	}
@@ -1181,7 +1181,7 @@ technocore_start = {
 		class = "pc_pulsar"
 		name = "Silence Pulsar"
 
-		size = 30
+		size = 40
 		orbit_angle = -60
 		orbit_distance = 0
 	}
@@ -1191,7 +1191,7 @@ technocore_start = {
 		name = "Null Neutron"
 
 		size = 30
-		orbit_angle = -120
+		orbit_angle = -60
 		orbit_distance = 0
 	}
 }

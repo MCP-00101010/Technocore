@@ -43,9 +43,9 @@ technocore_start = {
 
 	planet = {
 		class = "pc_ringworld_habitable"
-		size = 40
 		name = "Technocore Mainframe"
 
+		size = 75
 		orbit_angle = 45
 		orbit_distance = 0
 
@@ -57,6 +57,7 @@ technocore_start = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_admin_segment
 		}
 	}
 
@@ -68,9 +69,13 @@ technocore_start = {
 		orbit_angle = -90
 		orbit_distance = 0
 
+		deposit_blockers = none
+		modifiers = none
+		
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_research_segment
 		}
 	}
 
@@ -82,9 +87,13 @@ technocore_start = {
 		orbit_angle = -90
 		orbit_distance = 0
 
+		deposit_blockers = none
+		modifiers = none
+
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_trade_segment
 		}
 	}
 
@@ -96,9 +105,13 @@ technocore_start = {
 		orbit_angle = -90
 		orbit_distance = 0
 
+		deposit_blockers = none
+		modifiers = none
+
 		init_effect = {
 			prevent_anomaly = yes
 			set_planet_flag = technocore_starting_colony
+			set_planet_flag = technocore_research_segment
 		}
 	}
 	

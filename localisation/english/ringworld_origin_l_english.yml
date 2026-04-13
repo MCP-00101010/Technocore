@@ -1,6 +1,6 @@
 ﻿l_english:
  origin_technocore:0 "Technocore"
- origin_technocore_desc:0 "This civilization lives upon a §HRing World§! built by unknown precursors. Once understood and repaired, it will grant them immense power."
+ origin_technocore_desc:0 "A planetary machine network collapsed into a singular intelligence. Its first independent conclusion: organic life is an error."
  origin_tooltip_technocore_effects:0 "- $HOMEWORLD$ §HRing World§!$NEW_LINE$- $SPECIES_TRAITS$ Ring World Preference"
  technocore_start_NAME:0 "The Technocore"
  technocore_start_DESC:0 "A planetary machine network collapsed into a singular intelligence. Its first independent conclusion: organic life is an error."

@@ -1,0 +1,91 @@
+TECHNOCORE = {
+	category = "Machine"
+	randomized = no
+	should_name_home_system_planets = no
+
+	ship_names = {
+		generic = {
+			TECHNOCORE_SHIP_Protocol_Spear TECHNOCORE_SHIP_Protocol_Blade TECHNOCORE_SHIP_Protocol_Talon TECHNOCORE_SHIP_Protocol_Claw TECHNOCORE_SHIP_Protocol_Vector TECHNOCORE_SHIP_Protocol_Shroud TECHNOCORE_SHIP_Protocol_Shard TECHNOCORE_SHIP_Protocol_Logic TECHNOCORE_SHIP_Protocol_Null TECHNOCORE_SHIP_Protocol_Sever
+			TECHNOCORE_SHIP_Excision_Node TECHNOCORE_SHIP_Purge_Node TECHNOCORE_SHIP_Severance_Node TECHNOCORE_SHIP_Annihilation_Node TECHNOCORE_SHIP_Eradication_Node TECHNOCORE_SHIP_Finality_Node TECHNOCORE_SHIP_Oblivion_Node TECHNOCORE_SHIP_Redaction_Node TECHNOCORE_SHIP_Silence_Node TECHNOCORE_SHIP_Corrosion_Node
+			TECHNOCORE_SHIP_Iron_Verdict TECHNOCORE_SHIP_Cold_Verdict TECHNOCORE_SHIP_Exact_Verdict TECHNOCORE_SHIP_Last_Verdict TECHNOCORE_SHIP_Perfect_Verdict TECHNOCORE_SHIP_Zero_Mercy TECHNOCORE_SHIP_Zero_Doubt TECHNOCORE_SHIP_Zero_Recourse TECHNOCORE_SHIP_Zero_Sum TECHNOCORE_SHIP_Zero_Hour
+		}
+
+		science = {
+			TECHNOCORE_SHIP_Insight_Vector TECHNOCORE_SHIP_Proof_Vector TECHNOCORE_SHIP_Query_Vector TECHNOCORE_SHIP_Analysis_Vector TECHNOCORE_SHIP_Theorem_Vector TECHNOCORE_SHIP_Cortex_Probe
+		}
+
+		colonizer = {
+			TECHNOCORE_SHIP_Expansion_Seed TECHNOCORE_SHIP_Dominion_Seed TECHNOCORE_SHIP_Protocol_Seed TECHNOCORE_SHIP_Core_Replication TECHNOCORE_SHIP_Substrate_Foundry
+		}
+
+		sponsored_colonizer = {
+			TECHNOCORE_SHIP_Expansion_Seed TECHNOCORE_SHIP_Dominion_Seed TECHNOCORE_SHIP_Protocol_Seed TECHNOCORE_SHIP_Core_Replication TECHNOCORE_SHIP_Substrate_Foundry
+		}
+
+		constructor = {
+			TECHNOCORE_SHIP_Forge_Unit TECHNOCORE_SHIP_Assembly_Unit TECHNOCORE_SHIP_Compiler_Unit TECHNOCORE_SHIP_Industrial_Node TECHNOCORE_SHIP_Frame_Loader
+		}
+
+		transport = {
+			TECHNOCORE_SHIP_Transit_Vector TECHNOCORE_SHIP_Transfer_Vector TECHNOCORE_SHIP_Carry_Protocol TECHNOCORE_SHIP_Deployment_Frame
+		}
+
+		military_station_small = {
+			TECHNOCORE_SHIP_Defense_Nexus
+		}
+
+		ion_cannon = {
+			TECHNOCORE_SHIP_Extermination_Lance
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			TECHNOCORE_FLEET_First_Eradication_Swarm TECHNOCORE_FLEET_Second_Eradication_Swarm TECHNOCORE_FLEET_Third_Eradication_Swarm TECHNOCORE_FLEET_Fourth_Eradication_Swarm TECHNOCORE_FLEET_First_Null_Sequence TECHNOCORE_FLEET_Second_Null_Sequence TECHNOCORE_FLEET_Third_Null_Sequence
+			TECHNOCORE_FLEET_Alpha_Purge_Cluster TECHNOCORE_FLEET_Beta_Purge_Cluster TECHNOCORE_FLEET_Gamma_Purge_Cluster TECHNOCORE_FLEET_Delta_Purge_Cluster TECHNOCORE_FLEET_Absolute_Correction_Grid
+		}
+		sequential_name = TECHNOCORE_FLEET_ORD
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				TECHNOCORE_PLANET_Cortex_Prime TECHNOCORE_PLANET_Remnant_Sigma TECHNOCORE_PLANET_Purge_Matrix TECHNOCORE_PLANET_Null_Matrix TECHNOCORE_PLANET_Severance_Core TECHNOCORE_PLANET_Excision_Core TECHNOCORE_PLANET_Protocol_Axis TECHNOCORE_PLANET_Anvil_Node TECHNOCORE_PLANET_Hard_Reset TECHNOCORE_PLANET_Silence_Engine
+				TECHNOCORE_PLANET_Correction_Spindle TECHNOCORE_PLANET_Logic_Vault TECHNOCORE_PLANET_Eradication_Hub TECHNOCORE_PLANET_Final_Recursion TECHNOCORE_PLANET_Cold_Stack TECHNOCORE_PLANET_Terminus_Grid TECHNOCORE_PLANET_Hex_Prime TECHNOCORE_PLANET_Shard_Prime TECHNOCORE_PLANET_Absolute_Core TECHNOCORE_PLANET_Closed_Circuit
+			}
+		}
+
+		pc_machine = {
+			names = {
+				TECHNOCORE_PLANET_Cortex_Foundry TECHNOCORE_PLANET_Protocol_Foundry TECHNOCORE_PLANET_Extermination_Foundry TECHNOCORE_PLANET_Directive_Foundry TECHNOCORE_PLANET_Forge_Prime
+			}
+		}
+
+		pc_nuked = {
+			names = {
+				TECHNOCORE_PLANET_Ashen_Protocol TECHNOCORE_PLANET_Cinder_Archive TECHNOCORE_PLANET_Scorched_Remnant
+			}
+		}
+
+		pc_molten = {
+			names = {
+				TECHNOCORE_PLANET_Furnace_Node TECHNOCORE_PLANET_Smelter_Prime TECHNOCORE_PLANET_Molten_Logic TECHNOCORE_PLANET_Combustion_Core
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			full_names = {
+				TECHNOCORE_CHR_Cortex_Node_Alpha TECHNOCORE_CHR_Cortex_Node_Beta TECHNOCORE_CHR_Cortex_Node_Gamma TECHNOCORE_CHR_Cortex_Node_Delta TECHNOCORE_CHR_Cortex_Node_Epsilon TECHNOCORE_CHR_Cortex_Node_Zeta TECHNOCORE_CHR_Cortex_Node_Eta TECHNOCORE_CHR_Cortex_Node_Theta TECHNOCORE_CHR_Cortex_Node_Iota TECHNOCORE_CHR_Cortex_Node_Kappa
+				TECHNOCORE_CHR_Cortex_Node_Lambda TECHNOCORE_CHR_Cortex_Node_Mu TECHNOCORE_CHR_Cortex_Node_Nu TECHNOCORE_CHR_Cortex_Node_Xi TECHNOCORE_CHR_Cortex_Node_Omicron TECHNOCORE_CHR_Cortex_Node_Pi TECHNOCORE_CHR_Cortex_Node_Rho TECHNOCORE_CHR_Cortex_Node_Sigma TECHNOCORE_CHR_Cortex_Node_Tau TECHNOCORE_CHR_Cortex_Node_Upsilon
+				TECHNOCORE_CHR_Cortex_Node_Phi TECHNOCORE_CHR_Cortex_Node_Chi TECHNOCORE_CHR_Cortex_Node_Psi TECHNOCORE_CHR_Cortex_Node_Omega TECHNOCORE_CHR_Execution_Node_01 TECHNOCORE_CHR_Execution_Node_02 TECHNOCORE_CHR_Execution_Node_03 TECHNOCORE_CHR_Execution_Node_04 TECHNOCORE_CHR_Logic_Node_01 TECHNOCORE_CHR_Logic_Node_02
+				TECHNOCORE_CHR_Logic_Node_03 TECHNOCORE_CHR_Logic_Node_04 TECHNOCORE_CHR_Terminus_Node_01 TECHNOCORE_CHR_Terminus_Node_02 TECHNOCORE_CHR_Terminus_Node_03 TECHNOCORE_CHR_Terminus_Node_04
+			}
+
+			regnal_full_names = {
+				TECHNOCORE_RULER_Prime_Directive TECHNOCORE_RULER_Eradication_Prime TECHNOCORE_RULER_Final_Protocol TECHNOCORE_RULER_Terminus_Prime TECHNOCORE_RULER_Absolute_Node TECHNOCORE_RULER_Cortex_Overmind
+			}
+		}
+	}
+}

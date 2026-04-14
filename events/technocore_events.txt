@@ -83,6 +83,21 @@ country_event = {
                     }
 
                     every_system_planet = {
+                        if = {
+                            limit = { has_planet_flag = technocore_tomb_world }
+                            set_name = "Ashen Protocol"
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_relic_world }
+                            set_name = "Archive Null"
+                        }
+                        if = {
+                            limit = { has_planet_flag = technocore_nanite_world }
+                            set_name = "Nanite Verdict"
+                        }
+                    }
+
+                    every_system_planet = {
                         limit = { NOT = { has_planet_flag = technocore_megastructure_initialized } }
 
                         save_event_target_as = technocore_megastructure_body

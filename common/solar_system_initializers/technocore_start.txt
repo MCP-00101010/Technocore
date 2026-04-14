@@ -737,6 +737,57 @@ technocore_start = {
 		}
 	}
 
+	planet = {
+		class = "pc_tomb"
+		name = "Ashen Protocol"
+
+		size = 50
+		orbit_angle = 90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_tomb_world
+		}
+	}
+
+	planet = {
+		class = "pc_relic"
+		name = "Archive Null"
+
+		size = 50
+		orbit_angle = 90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_relic_world
+		}
+	}
+
+	planet = {
+		class = "pc_nanite"
+		name = "Nanite Verdict"
+
+		size = 50
+		orbit_angle = 90
+		orbit_distance = 0
+
+		deposit_blockers = none
+		modifiers = none
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = technocore_nanite_world
+		}
+	}
+
 	change_orbit = -33
 	
 	planet = {

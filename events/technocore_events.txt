@@ -77,6 +77,8 @@ country_event = {
                             set_name = "Computation Segment 02"
                             add_deposit = d_technocore_science_subprocessor
                         }
+                        add_building = building_machine_assembly_plant
+                        add_building = building_drone_storage
                         clear_blockers = yes
                         generate_start_buildings_and_districts = yes
                         generate_start_pops = yes
